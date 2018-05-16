@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <FeedMedia/FeedMedia.h>
 
 @interface ViewController : UIViewController
 

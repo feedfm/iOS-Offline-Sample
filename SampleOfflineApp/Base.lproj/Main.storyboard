@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +15,241 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tX5-F2-glW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DB8-Jt-J7Y" userLabel="Player">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0TN-dE-Z30" userLabel="powered by feed.fm">
+                                        <rect key="frame" x="137" y="649" width="102" height="23"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                        <state key="normal" title="POWERED BY FEED.FM">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A64-B5-JlY" userLabel="track" customClass="FMMetadataLabel">
+                                        <rect key="frame" x="12" y="507" width="359" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="format" value="%TRACK"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="trailingBuffer">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQr-kU-ZS9" userLabel="artist" customClass="FMMetadataLabel">
+                                        <rect key="frame" x="12" y="527" width="351" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="format" value="%ARTIST"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="trailingBuffer">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qg7-gu-v48" userLabel="album" customClass="FMMetadataLabel">
+                                        <rect key="frame" x="12" y="547" width="351" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="format" value="%ALBUM"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="trailingBuffer">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q2h-l8-Lwa" userLabel="Player Controls">
+                                        <rect key="frame" x="27.5" y="560" width="320" height="68"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DTa-nQ-gyX" userLabel="like" customClass="FMLikeButton">
+                                                <rect key="frame" x="31.5" y="24" width="44" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="44" id="57E-4P-7UV"/>
+                                                    <constraint firstAttribute="height" constant="44" id="zQ2-Jk-kF1"/>
+                                                </constraints>
+                                                <state key="normal" image="feedfm-icon-like-black">
+                                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <state key="selected" image="FeedMedia.bundle/thumbsup_selected"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sXP-bN-Nho" userLabel="play/pause" customClass="FMPlayPauseButton">
+                                                <rect key="frame" x="191.5" y="24" width="44" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="44" id="Gt8-Xw-VJ2"/>
+                                                    <constraint firstAttribute="width" constant="44" id="Na3-wf-GDq"/>
+                                                </constraints>
+                                                <state key="normal" image="feedfm-icon-play-black">
+                                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <state key="selected" image="feedfm-icon-pause-black"/>
+                                            </button>
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Pps-RY-hIc" customClass="FMProgressView">
+                                                <rect key="frame" x="44" y="10" width="232" height="2"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="232" id="fgr-GE-8Rd"/>
+                                                </constraints>
+                                                <color key="progressTintColor" red="0.1299507171" green="0.60234385729999995" blue="0.66390824319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="trackTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </progressView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XTF-lF-dFH" userLabel="elapsed" customClass="FMElapsedTimeLabel">
+                                                <rect key="frame" x="0.0" y="0.0" width="36" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="36" id="GMi-bS-Glh"/>
+                                                    <constraint firstAttribute="height" constant="21" id="uWZ-YI-6Qb"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9wY-Vg-kAa" userLabel="remaining" customClass="FMRemainingTimeLabel">
+                                                <rect key="frame" x="284" y="0.0" width="36" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="36" id="Aa2-UQ-kXo"/>
+                                                    <constraint firstAttribute="height" constant="21" id="G33-Mq-LNa"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tg1-w3-vyX" userLabel="skip" customClass="FMSkipButton">
+                                                <rect key="frame" x="244.5" y="24" width="44" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="44" id="o4g-t4-xkM"/>
+                                                    <constraint firstAttribute="width" constant="44" id="sxp-GC-pM8"/>
+                                                </constraints>
+                                                <state key="normal" image="feedfm-icon-skip-black"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJ2-Qg-kD0" userLabel="dislike" customClass="FMDislikeButton">
+                                                <rect key="frame" x="138" y="24" width="44" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="44" id="Dow-wI-yXL"/>
+                                                    <constraint firstAttribute="width" constant="44" id="mOs-BK-lmS"/>
+                                                </constraints>
+                                                <state key="normal" image="feedfm-icon-dislike-black">
+                                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <state key="selected" image="FeedMedia.bundle/thumbsdown_selected"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JjX-iQ-73J" userLabel="stop">
+                                                <rect key="frame" x="84.5" y="24" width="44" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="44" id="T9t-jH-3d6"/>
+                                                </constraints>
+                                                <state key="normal" title="stop"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="JjX-iQ-73J" secondAttribute="bottom" id="0aX-kU-Io7"/>
+                                            <constraint firstAttribute="bottom" secondItem="sXP-bN-Nho" secondAttribute="bottom" id="1by-3U-u3L"/>
+                                            <constraint firstAttribute="bottom" secondItem="ZJ2-Qg-kD0" secondAttribute="bottom" id="3XI-Sc-Z1c"/>
+                                            <constraint firstAttribute="height" constant="68" id="6Tc-PZ-40I"/>
+                                            <constraint firstAttribute="bottom" secondItem="9wY-Vg-kAa" secondAttribute="bottom" constant="47" id="6Tw-1T-V51"/>
+                                            <constraint firstItem="ZJ2-Qg-kD0" firstAttribute="leading" secondItem="JjX-iQ-73J" secondAttribute="trailing" constant="9" id="7um-p6-9qn"/>
+                                            <constraint firstAttribute="centerX" secondItem="Pps-RY-hIc" secondAttribute="centerX" id="Azd-mh-iQY"/>
+                                            <constraint firstItem="Tg1-w3-vyX" firstAttribute="centerX" secondItem="q2h-l8-Lwa" secondAttribute="trailing" multiplier="5:6" id="Dvh-EF-8j7"/>
+                                            <constraint firstItem="XTF-lF-dFH" firstAttribute="leading" secondItem="q2h-l8-Lwa" secondAttribute="leading" id="Fnn-SU-l7z"/>
+                                            <constraint firstAttribute="bottom" secondItem="DTa-nQ-gyX" secondAttribute="bottom" id="IF2-Fw-5xL"/>
+                                            <constraint firstItem="JjX-iQ-73J" firstAttribute="leading" secondItem="DTa-nQ-gyX" secondAttribute="trailing" constant="9" id="She-23-hzq"/>
+                                            <constraint firstAttribute="trailing" secondItem="9wY-Vg-kAa" secondAttribute="trailing" id="TZd-Wl-i0R"/>
+                                            <constraint firstItem="ZJ2-Qg-kD0" firstAttribute="centerX" secondItem="q2h-l8-Lwa" secondAttribute="trailing" multiplier="3:6" id="Tli-v8-mvD"/>
+                                            <constraint firstAttribute="bottom" secondItem="Tg1-w3-vyX" secondAttribute="bottom" id="fTr-Jk-A0O"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="320" id="m2J-sR-QaP"/>
+                                            <constraint firstItem="JjX-iQ-73J" firstAttribute="centerX" secondItem="q2h-l8-Lwa" secondAttribute="trailing" multiplier="2:6" id="rqP-3o-zmT"/>
+                                            <constraint firstAttribute="bottom" secondItem="XTF-lF-dFH" secondAttribute="bottom" constant="47" id="sBL-59-whH"/>
+                                            <constraint firstAttribute="bottom" secondItem="Pps-RY-hIc" secondAttribute="bottom" constant="56" id="yXX-Dr-a9p"/>
+                                            <constraint firstItem="DTa-nQ-gyX" firstAttribute="centerX" secondItem="q2h-l8-Lwa" secondAttribute="trailing" multiplier="1:6" id="yyy-ju-nb9"/>
+                                            <constraint firstItem="sXP-bN-Nho" firstAttribute="centerX" secondItem="q2h-l8-Lwa" secondAttribute="trailing" multiplier="4:6" id="zMN-Tc-79O"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current state:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duq-nd-In6" userLabel="Current state label">
+                                        <rect key="frame" x="8" y="412" width="105.5" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="105.5" id="SLh-Tb-0i0"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;uninitialized&gt;" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBW-pR-FK8" userLabel="Current state">
+                                        <rect key="frame" x="117" y="412" width="250" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Progress" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qLX-yP-E9f">
+                                        <rect key="frame" x="8" y="20" width="68" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Scb-Bd-e6a">
+                                        <rect key="frame" x="84" y="29" width="283" height="2"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </progressView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="WQr-kU-ZS9" firstAttribute="centerY" secondItem="DB8-Jt-J7Y" secondAttribute="centerY" constant="193.5" id="0S5-a1-nhW"/>
+                                    <constraint firstItem="Qg7-gu-v48" firstAttribute="leading" secondItem="DB8-Jt-J7Y" secondAttribute="leadingMargin" constant="4" id="3AU-ZR-yHX"/>
+                                    <constraint firstItem="Qg7-gu-v48" firstAttribute="centerY" secondItem="DB8-Jt-J7Y" secondAttribute="centerY" constant="213.5" id="88o-iG-Tep"/>
+                                    <constraint firstItem="q2h-l8-Lwa" firstAttribute="centerY" secondItem="DB8-Jt-J7Y" secondAttribute="centerY" constant="260.5" id="C6p-sH-FLP"/>
+                                    <constraint firstItem="IBW-pR-FK8" firstAttribute="bottom" secondItem="duq-nd-In6" secondAttribute="bottom" id="ERj-EO-LxD"/>
+                                    <constraint firstAttribute="centerX" secondItem="0TN-dE-Z30" secondAttribute="centerX" constant="-0.5" id="IEM-Xp-Yf6"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="IBW-pR-FK8" secondAttribute="trailing" id="IIg-wd-zhA"/>
+                                    <constraint firstItem="0TN-dE-Z30" firstAttribute="bottom" secondItem="N7U-kM-cfF" secondAttribute="bottom" constant="5" id="IZE-1h-EiE"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="Qg7-gu-v48" secondAttribute="trailing" constant="4" id="IcR-DD-Skn"/>
+                                    <constraint firstItem="A64-B5-JlY" firstAttribute="trailing" secondItem="DB8-Jt-J7Y" secondAttribute="trailingMargin" constant="4" id="OVX-dz-ZgE"/>
+                                    <constraint firstAttribute="width" constant="375" id="QZb-rH-ypp"/>
+                                    <constraint firstAttribute="centerX" secondItem="q2h-l8-Lwa" secondAttribute="centerX" id="WcA-d7-ezb"/>
+                                    <constraint firstItem="A64-B5-JlY" firstAttribute="leading" secondItem="DB8-Jt-J7Y" secondAttribute="leadingMargin" constant="4" id="XQV-zk-bQN"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="WQr-kU-ZS9" secondAttribute="trailing" constant="4" id="bCe-6U-11C"/>
+                                    <constraint firstItem="IBW-pR-FK8" firstAttribute="leading" secondItem="duq-nd-In6" secondAttribute="trailing" constant="3.5" id="cbl-Cm-ld5"/>
+                                    <constraint firstAttribute="height" constant="667" id="dLm-wD-3Go"/>
+                                    <constraint firstItem="WQr-kU-ZS9" firstAttribute="leading" secondItem="DB8-Jt-J7Y" secondAttribute="leadingMargin" constant="4" id="gIC-Yz-k0H"/>
+                                    <constraint firstItem="q2h-l8-Lwa" firstAttribute="top" secondItem="duq-nd-In6" secondAttribute="bottom" constant="127" id="jEq-qD-Xdx"/>
+                                    <constraint firstItem="duq-nd-In6" firstAttribute="leading" secondItem="DB8-Jt-J7Y" secondAttribute="leadingMargin" id="kiV-rE-fzp"/>
+                                    <constraint firstItem="A64-B5-JlY" firstAttribute="centerY" secondItem="DB8-Jt-J7Y" secondAttribute="centerY" constant="173.5" id="zTa-Sj-Vt8"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="N7U-kM-cfF"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="DB8-Jt-J7Y" firstAttribute="centerY" secondItem="tX5-F2-glW" secondAttribute="centerY" id="Vds-gd-nhH"/>
+                            <constraint firstItem="DB8-Jt-J7Y" firstAttribute="centerX" secondItem="tX5-F2-glW" secondAttribute="centerX" id="b2n-cW-Ggh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Rnc-Xa-WXa"/>
                     </view>
+                    <connections>
+                        <outlet property="album" destination="Qg7-gu-v48" id="hFD-Bf-7Lk"/>
+                        <outlet property="artist" destination="WQr-kU-ZS9" id="W0F-13-nrG"/>
+                        <outlet property="progress" destination="Scb-Bd-e6a" id="Vh9-LN-FNs"/>
+                        <outlet property="state" destination="IBW-pR-FK8" id="D5b-bk-2Nh"/>
+                        <outlet property="track" destination="A64-B5-JlY" id="qo1-BV-Ovx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="61.600000000000001" y="44.527736131934034"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="FeedMedia.bundle/thumbsdown_selected" width="16" height="16"/>
+        <image name="FeedMedia.bundle/thumbsup_selected" width="16" height="16"/>
+        <image name="feedfm-icon-dislike-black" width="24" height="24"/>
+        <image name="feedfm-icon-like-black" width="24" height="24"/>
+        <image name="feedfm-icon-pause-black" width="24" height="24"/>
+        <image name="feedfm-icon-play-black" width="24" height="24"/>
+        <image name="feedfm-icon-skip-black" width="24" height="24"/>
+    </resources>
 </document>

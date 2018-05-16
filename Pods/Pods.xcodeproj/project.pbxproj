@@ -1,0 +1,1151 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0737CE82A119B4DF101E945325102592 /* MarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FA380D5EDD85D54A879FEC1116551 /* MarqueeLabel.m */; };
+		08C2DD9CD784BF113F0EBA8CB62ACF73 /* Pods-SampleOfflineAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D331EA5BF057F5924538E5CFE6B739 /* Pods-SampleOfflineAppUITests-dummy.m */; };
+		13616932FF50779629A2CF2E2B566A7C /* Pods-SampleOfflineApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7302E2858DD1236676CF9B218202F969 /* Pods-SampleOfflineApp-dummy.m */; };
+		19F9271E966C5E08F7DF79AE1C032068 /* FMActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F6A8C4B8C7EA7DFB4353E69FD71404 /* FMActivityIndicator.m */; };
+		2092CA91183DACA4E860C24BA9A4D586 /* FMActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2615F7DD8771AA2EE2219A49AE6BD687 /* FMActivityIndicator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		263C4F53C65CA37F0BF2C842C77230C9 /* CWStatusBarNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 18404CD73E9E88F87AA33ED299270DF7 /* CWStatusBarNotification.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2754D66C769012C313E97101DD645BB4 /* FMTotalTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D15D70A2E9CCE20292C433AC7F68F0 /* FMTotalTimeLabel.m */; };
+		29869008A9A3C0B898430F387BEEE814 /* FMLockScreenDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1259C7EBC6B503C84867337DD6C80BD6 /* FMLockScreenDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D2BAF243C30524F69293F9D6ECFB95A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CA65D53BB6079D2608E610E9B1A6BE /* UIKit.framework */; };
+		2E8DCAA357DE31C3EC0CDF12C54ED4F7 /* FMSkipWarningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8430EF1215888B8789FDB23845DE16 /* FMSkipWarningView.m */; };
+		333EF3652930EE36885F9323878EF548 /* FMRemainingTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 503B86959C5EA84B0272222EE3C827A0 /* FMRemainingTimeLabel.m */; };
+		350200E037A7E93515B3A4D2BC547C2E /* FMShareButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD74751E3B2FD6A06ED3023EF1EAFED /* FMShareButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		36A98927F5C9CA869A7657BF633A78A9 /* Pods-SampleOfflineAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7059EB2BBA71E920B434F89E1D5D75 /* Pods-SampleOfflineAppTests-dummy.m */; };
+		40EA759DEC063BB22B3F8A4FCAB90DE5 /* FMElapsedTimeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E08FB46D042461C0DF0E33EE0386427 /* FMElapsedTimeLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41049ABCA737A710B0855B486F9F694F /* FMStationButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F02E0F596AA7A4383D4F8C177EF84F21 /* FMStationButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		48EAE59B8484D97A90CA8F72C38D957B /* FMProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B5789C00C480D9189DD32611C5F820 /* FMProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4C95D778722A1D746DB97A9F2BB82974 /* FMMetadataLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = DB213DAC7E1CA9D27BC7A44E8EEDF68A /* FMMetadataLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5A76BBC543816F2187B58813FBB8076D /* FMEqualizer.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEDA32855B84E698903811C07B62E94 /* FMEqualizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F0C3C0B16CDF1BACC8991F35130F7E7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A36D64024C4285C6815AFEAB4AC7A8A /* QuartzCore.framework */; };
+		65CBB24F46AB9719B575885BE91A12F3 /* MarqueeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = EFDEC920D8B80BEAFB17AF6540BA8E18 /* MarqueeLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		75746610729F8A9A5BB565A0C5B74173 /* FMAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ABC2D398F3C52705F07D37DB68574FB /* FMAudioPlayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		75F158C44A5629A73C28251601BF0158 /* FMLikeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 05510A5BD9B798F85ABCE0D708F07202 /* FMLikeButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7A0ED645A182B513F2F5464BBC269DF0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FBE801A89C046922F5A836F3C66963 /* CoreMedia.framework */; };
+		7A148D6E4C4652566FDACA3F35271A7D /* FeedMedia-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF73A9BC1756881D94BC7A0D3DA1653 /* FeedMedia-dummy.m */; };
+		7AF31FA943C90B8D52D2078E20115995 /* FMError.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F782A171C82CCC3A5AEE7E1B29A3F1 /* FMError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C30346B3CA4DF7BE83D65E500C63210 /* FMStationCrossfader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4324C729025B37AE7928558BA7B456 /* FMStationCrossfader.m */; };
+		7CC4873043E9B25F35C977B6B6D1F99D /* FMMetadataLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96E12C60BE298399BC6FA46D360541 /* FMMetadataLabel.m */; };
+		85D9F8BE48F8F83AE8D64A39A76D1F37 /* FMRemainingTimeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = E1AFEA49CC0A9CDDCB8E6F71E21CB166 /* FMRemainingTimeLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		874C68642DC203E81DB907319DA4C246 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DEEB4905DE52C143A7FAFC251CC124 /* AVFoundation.framework */; };
+		8A397AAB77EBA1FEBE8898D02DD1EEF7 /* FMTotalTimeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = E5EAE7E6AB6CB2C9F98D4F8E4C7D23FB /* FMTotalTimeLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8CD156F31D3539CDA9B8EC1F614C79F9 /* FMDislikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E5898C47BE46859A8E9C80ECE14E3CE9 /* FMDislikeButton.m */; };
+		8D4583F9B4887C91DF6F6E8C8512A8CE /* FMStation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7224C8D00FE888EB67BF330353419E68 /* FMStation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E3F501A52DF74468E86605A93C22261 /* FMAudioItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 980715AC3D71C001F429023910210014 /* FMAudioItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F143A9C9D5AB14F40FDC226B655DE71 /* FMLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 590F31096334A4E3F453A7BCF2B3D765 /* FMLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E5069E88F43EC8532713C5B450DB717 /* FMPlayPauseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 5915244EB4C25AA72E09138C54B5E0D0 /* FMPlayPauseButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B39BE59B2A2B67B0562E75ECECDCEF2E /* FMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B5BF88A6F8F26B0B2B677401E3D639 /* FMProgressView.m */; };
+		BC1FB452E60ED6A75F9033A6BC05BD53 /* FeedMediaCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D923D347845E3F5B6F3FB81E09E1C6FD /* FeedMediaCore.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C122000B05DC0B9375578DF5BC97EC49 /* FMLikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C39183D8627D1DECAD3EC80A52D5BCD /* FMLikeButton.m */; };
+		C74AD9C47108450DF2962316F962BE6B /* FMDislikeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CE28C805444117EBA03851DD36346D96 /* FMDislikeButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C843D6BA0A187F7A11E2D85B3E49726A /* FMShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0BADF1666D0784BA794B243985BBCC /* FMShareButton.m */; };
+		CCDB3CCC6B8AD163BDBC6DA70991792A /* FMSkipButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AB68A3E25949576CACC0B24ADA22A2D0 /* FMSkipButton.m */; };
+		CF288857166EF825FC2F5EE1E1188E2A /* FMStationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E8421DF2A8C6B19524604F4C698A56EE /* FMStationButton.m */; };
+		D000B6EFF0589436C04BDB3BE6A6D6EE /* FMSkipWarningView.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F128914BAAAD7F7BFD74702E5A2FBF /* FMSkipWarningView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D3C699DBB0B34CCBE6E3F33371AB8539 /* FMPlayPauseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B525734AC8E2E11E0F9F7485A5B71FB7 /* FMPlayPauseButton.m */; };
+		DC7A3C8B836BB93C882F52CD26ECF922 /* FeedMediaCoreProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A596BD574CB1D07D7DC1FEF9DD79CFC /* FeedMediaCoreProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E638AC37DF04C9D19D647AD3DBE5D19C /* FMStationCrossfader.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB64DD7743B7E2FF84368B4C8F2E788 /* FMStationCrossfader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E6ACD9076336C439CD764248A1676501 /* FeedMedia.h in Headers */ = {isa = PBXBuildFile; fileRef = FA66E39C78612500B45FBC7872C0E5B7 /* FeedMedia.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7CAE52F7545D433CC29FBB6125C016F /* FMSkipButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DCCF27F6B203DBDF9B47FF79124DA82 /* FMSkipButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F24347E8C898FC7ACA7D0267C3E26EAD /* FMEqualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = D48E29418A4A8334AEB8475E8014ADCB /* FMEqualizer.m */; };
+		F7CEAA85C0B5560158449BBAF2984124 /* FMElapsedTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E954F472DD14F81B7D1FBE96669019 /* FMElapsedTimeLabel.m */; };
+		FD119DE7C77A0C59B11E3DD223237D64 /* MarqueeLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62664B53B61D74CFFB42F3C3119B347B /* MarqueeLabel-dummy.m */; };
+		FDD508056814629E73503517FF052FEA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A739647C36A6583FF45AF84C9AACE3 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11570273A65EDCED2A430CD7F8269618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6657AB9BD7DF93A5276C262E468B36D;
+			remoteInfo = "Pods-SampleOfflineApp";
+		};
+		132ED00BEE74E5BA953A25D433FCAD58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6657AB9BD7DF93A5276C262E468B36D;
+			remoteInfo = "Pods-SampleOfflineApp";
+		};
+		2AE4B13C1F521E48613B096A782DBA12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C94370F2CC06BB6B4CC0D0E7CE22943F;
+			remoteInfo = MarqueeLabel;
+		};
+		55F5311126F2C179180553E6346C96B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B87387E4635A8E793412ACAE0E8B62E;
+			remoteInfo = FeedMedia;
+		};
+		5BD6AC45FE6138DC277DC269F2931BB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C94370F2CC06BB6B4CC0D0E7CE22943F;
+			remoteInfo = MarqueeLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C2EBA296D8AE5B6AFFA5E1117D1BCA /* MarqueeLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.xcconfig; sourceTree = "<group>"; };
+		05510A5BD9B798F85ABCE0D708F07202 /* FMLikeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMLikeButton.h; sourceTree = "<group>"; };
+		0A596BD574CB1D07D7DC1FEF9DD79CFC /* FeedMediaCoreProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FeedMediaCoreProxy.h; sourceTree = "<group>"; };
+		0C7059EB2BBA71E920B434F89E1D5D75 /* Pods-SampleOfflineAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleOfflineAppTests-dummy.m"; sourceTree = "<group>"; };
+		1221AF9F17762176F453EEA66B43C56A /* Pods-SampleOfflineApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleOfflineApp-frameworks.sh"; sourceTree = "<group>"; };
+		1259C7EBC6B503C84867337DD6C80BD6 /* FMLockScreenDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMLockScreenDelegate.h; sourceTree = "<group>"; };
+		144CE3142B02DA542655EB3E1FCCD276 /* Pods-SampleOfflineAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleOfflineAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		1634420F41230F64FC94594FE4AF1549 /* MarqueeLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-prefix.pch"; sourceTree = "<group>"; };
+		18404CD73E9E88F87AA33ED299270DF7 /* CWStatusBarNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CWStatusBarNotification.h; sourceTree = "<group>"; };
+		18F128914BAAAD7F7BFD74702E5A2FBF /* FMSkipWarningView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMSkipWarningView.h; sourceTree = "<group>"; };
+		1B4324C729025B37AE7928558BA7B456 /* FMStationCrossfader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMStationCrossfader.m; sourceTree = "<group>"; };
+		1B8430EF1215888B8789FDB23845DE16 /* FMSkipWarningView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMSkipWarningView.m; sourceTree = "<group>"; };
+		2106A3DDB572D9FC7E4044F2CD9558F7 /* FeedMedia-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeedMedia-prefix.pch"; sourceTree = "<group>"; };
+		213FEDFB668EF13D5A191CC722825193 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2615F7DD8771AA2EE2219A49AE6BD687 /* FMActivityIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMActivityIndicator.h; sourceTree = "<group>"; };
+		2ABC2D398F3C52705F07D37DB68574FB /* FMAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMAudioPlayer.h; sourceTree = "<group>"; };
+		2E759D64379989F8E61A2B2B08A6A918 /* Pods-SampleOfflineAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleOfflineAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FF73A9BC1756881D94BC7A0D3DA1653 /* FeedMedia-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FeedMedia-dummy.m"; sourceTree = "<group>"; };
+		30B5BF88A6F8F26B0B2B677401E3D639 /* FMProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMProgressView.m; sourceTree = "<group>"; };
+		372DFA301A52ED80E0417AC57B96C76D /* Pods-SampleOfflineAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleOfflineAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		378D2A7445EB35743CAE9170E52BBFA5 /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.md; sourceTree = "<group>"; };
+		3C39183D8627D1DECAD3EC80A52D5BCD /* FMLikeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMLikeButton.m; sourceTree = "<group>"; };
+		406A42291E81E74DB0230B54FA8084A6 /* libFeedMediaCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFeedMediaCore.a; path = Core/libFeedMediaCore.a; sourceTree = "<group>"; };
+		4106C2894ACDF84E3361838E04EA6494 /* libMarqueeLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMarqueeLabel.a; path = libMarqueeLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F5B9F068D47B42B19E8EB96D040B63 /* FeedMedia.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FeedMedia.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		47D15D70A2E9CCE20292C433AC7F68F0 /* FMTotalTimeLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMTotalTimeLabel.m; sourceTree = "<group>"; };
+		503B86959C5EA84B0272222EE3C827A0 /* FMRemainingTimeLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMRemainingTimeLabel.m; sourceTree = "<group>"; };
+		590F31096334A4E3F453A7BCF2B3D765 /* FMLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMLog.h; sourceTree = "<group>"; };
+		5915244EB4C25AA72E09138C54B5E0D0 /* FMPlayPauseButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMPlayPauseButton.h; sourceTree = "<group>"; };
+		5A36D64024C4285C6815AFEAB4AC7A8A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		62664B53B61D74CFFB42F3C3119B347B /* MarqueeLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarqueeLabel-dummy.m"; sourceTree = "<group>"; };
+		62FA20D9707232D02C4880232B10B14A /* Pods-SampleOfflineAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleOfflineAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		65E954F472DD14F81B7D1FBE96669019 /* FMElapsedTimeLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMElapsedTimeLabel.m; sourceTree = "<group>"; };
+		672A4E325649F51FC9E4D830A3B8D957 /* FeedMedia.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FeedMedia.xcconfig; sourceTree = "<group>"; };
+		6CBA1E27A0753D0994D76B608A3900F1 /* Pods-SampleOfflineApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleOfflineApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6F1FA380D5EDD85D54A879FEC1116551 /* MarqueeLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MarqueeLabel.m; path = Sources/ObjC/MarqueeLabel.m; sourceTree = "<group>"; };
+		7224C8D00FE888EB67BF330353419E68 /* FMStation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMStation.h; sourceTree = "<group>"; };
+		7302E2858DD1236676CF9B218202F969 /* Pods-SampleOfflineApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleOfflineApp-dummy.m"; sourceTree = "<group>"; };
+		7D96E12C60BE298399BC6FA46D360541 /* FMMetadataLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMMetadataLabel.m; sourceTree = "<group>"; };
+		7DCCF27F6B203DBDF9B47FF79124DA82 /* FMSkipButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMSkipButton.h; sourceTree = "<group>"; };
+		86A739647C36A6583FF45AF84C9AACE3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		8CD74751E3B2FD6A06ED3023EF1EAFED /* FMShareButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMShareButton.h; sourceTree = "<group>"; };
+		8DA51084D0E7B0FF817D57C141B278CC /* libPods-SampleOfflineAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SampleOfflineAppUITests.a"; path = "libPods-SampleOfflineAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E08FB46D042461C0DF0E33EE0386427 /* FMElapsedTimeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMElapsedTimeLabel.h; sourceTree = "<group>"; };
+		91F6A8C4B8C7EA7DFB4353E69FD71404 /* FMActivityIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMActivityIndicator.m; sourceTree = "<group>"; };
+		929CAAC4C6E23B6F597A47E8C3C8E772 /* Pods-SampleOfflineAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleOfflineAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94C563E48259C4669BA7806279164D6A /* libPods-SampleOfflineApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SampleOfflineApp.a"; path = "libPods-SampleOfflineApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		959B662350DBAF9A2CCC456EDA3E1F50 /* Pods-SampleOfflineAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleOfflineAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		980715AC3D71C001F429023910210014 /* FMAudioItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMAudioItem.h; sourceTree = "<group>"; };
+		A3A5861116948F4F0A46468183E1928E /* Pods-SampleOfflineApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleOfflineApp-resources.sh"; sourceTree = "<group>"; };
+		A7D331EA5BF057F5924538E5CFE6B739 /* Pods-SampleOfflineAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleOfflineAppUITests-dummy.m"; sourceTree = "<group>"; };
+		A88DB7AB77BC891332FA272478D06AD5 /* Pods-SampleOfflineAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleOfflineAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		AB68A3E25949576CACC0B24ADA22A2D0 /* FMSkipButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMSkipButton.m; sourceTree = "<group>"; };
+		B525734AC8E2E11E0F9F7485A5B71FB7 /* FMPlayPauseButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMPlayPauseButton.m; sourceTree = "<group>"; };
+		B6CA65D53BB6079D2608E610E9B1A6BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BCC628B7B3151A00DD222A7A518F8B3B /* Pods-SampleOfflineAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleOfflineAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEB64DD7743B7E2FF84368B4C8F2E788 /* FMStationCrossfader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMStationCrossfader.h; sourceTree = "<group>"; };
+		C6803437CC1643DFC8E71CAA33388774 /* Pods-SampleOfflineAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleOfflineAppTests-resources.sh"; sourceTree = "<group>"; };
+		CE28C805444117EBA03851DD36346D96 /* FMDislikeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMDislikeButton.h; sourceTree = "<group>"; };
+		CED598C0F057759FF59BB4D9F786380C /* Pods-SampleOfflineApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleOfflineApp.release.xcconfig"; sourceTree = "<group>"; };
+		D0753884C4160FE5E5A86F6FD0991DE4 /* Pods-SampleOfflineAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleOfflineAppUITests-resources.sh"; sourceTree = "<group>"; };
+		D48E29418A4A8334AEB8475E8014ADCB /* FMEqualizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMEqualizer.m; sourceTree = "<group>"; };
+		D5DEEB4905DE52C143A7FAFC251CC124 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		D5DFC37D4EC700B64CD28B3B7009CEBA /* Pods-SampleOfflineAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleOfflineAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D923D347845E3F5B6F3FB81E09E1C6FD /* FeedMediaCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FeedMediaCore.h; sourceTree = "<group>"; };
+		DB213DAC7E1CA9D27BC7A44E8EEDF68A /* FMMetadataLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMMetadataLabel.h; sourceTree = "<group>"; };
+		E1AFEA49CC0A9CDDCB8E6F71E21CB166 /* FMRemainingTimeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMRemainingTimeLabel.h; sourceTree = "<group>"; };
+		E2B5789C00C480D9189DD32611C5F820 /* FMProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMProgressView.h; sourceTree = "<group>"; };
+		E3F782A171C82CCC3A5AEE7E1B29A3F1 /* FMError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMError.h; sourceTree = "<group>"; };
+		E5898C47BE46859A8E9C80ECE14E3CE9 /* FMDislikeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMDislikeButton.m; sourceTree = "<group>"; };
+		E5EAE7E6AB6CB2C9F98D4F8E4C7D23FB /* FMTotalTimeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMTotalTimeLabel.h; sourceTree = "<group>"; };
+		E5FBE801A89C046922F5A836F3C66963 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		E8421DF2A8C6B19524604F4C698A56EE /* FMStationButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMStationButton.m; sourceTree = "<group>"; };
+		EB62D20CE134EC770EBE6353B88D0C48 /* Pods-SampleOfflineAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleOfflineAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EFDEC920D8B80BEAFB17AF6540BA8E18 /* MarqueeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MarqueeLabel.h; path = Sources/ObjC/MarqueeLabel.h; sourceTree = "<group>"; };
+		F02E0F596AA7A4383D4F8C177EF84F21 /* FMStationButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMStationButton.h; sourceTree = "<group>"; };
+		F5AF16F39308239D1523ED8F73711B61 /* Pods-SampleOfflineApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleOfflineApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7C5CAB1AEB1C49C53F85B484CCC814C /* libPods-SampleOfflineAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SampleOfflineAppTests.a"; path = "libPods-SampleOfflineAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA66E39C78612500B45FBC7872C0E5B7 /* FeedMedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FeedMedia.h; sourceTree = "<group>"; };
+		FE0BADF1666D0784BA794B243985BBCC /* FMShareButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMShareButton.m; sourceTree = "<group>"; };
+		FEEDA32855B84E698903811C07B62E94 /* FMEqualizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMEqualizer.h; sourceTree = "<group>"; };
+		FF141D3D026976BAA2930FE8566D9A5B /* Pods-SampleOfflineApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleOfflineApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF2F94D514A497CF879DCCA9CBF7C57C /* libFeedMedia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFeedMedia.a; path = libFeedMedia.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E7C882AE634D806FF5D031B3C03B3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2873DE47272C26773674CB99D37F7643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559B9C02028F97CDD8B6B08371D671BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874C68642DC203E81DB907319DA4C246 /* AVFoundation.framework in Frameworks */,
+				7A0ED645A182B513F2F5464BBC269DF0 /* CoreMedia.framework in Frameworks */,
+				FDD508056814629E73503517FF052FEA /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DCE371408CD54CD9075954B85DFA72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F0C3C0B16CDF1BACC8991F35130F7E7 /* QuartzCore.framework in Frameworks */,
+				2D2BAF243C30524F69293F9D6ECFB95A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12932923D911C277D2A9225657A03A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F7EC0ED6EC44E55D433A2A82027C8C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D5DEEB4905DE52C143A7FAFC251CC124 /* AVFoundation.framework */,
+				E5FBE801A89C046922F5A836F3C66963 /* CoreMedia.framework */,
+				86A739647C36A6583FF45AF84C9AACE3 /* MediaPlayer.framework */,
+				5A36D64024C4285C6815AFEAB4AC7A8A /* QuartzCore.framework */,
+				B6CA65D53BB6079D2608E610E9B1A6BE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		087B9C4D45C066A7722B5C021EFFAC46 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				18404CD73E9E88F87AA33ED299270DF7 /* CWStatusBarNotification.h */,
+				D923D347845E3F5B6F3FB81E09E1C6FD /* FeedMediaCore.h */,
+				980715AC3D71C001F429023910210014 /* FMAudioItem.h */,
+				2ABC2D398F3C52705F07D37DB68574FB /* FMAudioPlayer.h */,
+				E3F782A171C82CCC3A5AEE7E1B29A3F1 /* FMError.h */,
+				1259C7EBC6B503C84867337DD6C80BD6 /* FMLockScreenDelegate.h */,
+				590F31096334A4E3F453A7BCF2B3D765 /* FMLog.h */,
+				7224C8D00FE888EB67BF330353419E68 /* FMStation.h */,
+			);
+			name = Core;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0F0748416F96A4112D3695F0A1B90C07 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				EFDEC920D8B80BEAFB17AF6540BA8E18 /* MarqueeLabel.h */,
+				6F1FA380D5EDD85D54A879FEC1116551 /* MarqueeLabel.m */,
+			);
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+		1951950C7078AFF22D832C9AC732EBE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF2F94D514A497CF879DCCA9CBF7C57C /* libFeedMedia.a */,
+				4106C2894ACDF84E3361838E04EA6494 /* libMarqueeLabel.a */,
+				94C563E48259C4669BA7806279164D6A /* libPods-SampleOfflineApp.a */,
+				F7C5CAB1AEB1C49C53F85B484CCC814C /* libPods-SampleOfflineAppTests.a */,
+				8DA51084D0E7B0FF817D57C141B278CC /* libPods-SampleOfflineAppUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07F7EC0ED6EC44E55D433A2A82027C8C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27F00D1EF8C3E793ED002327A580E157 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				43F5B9F068D47B42B19E8EB96D040B63 /* FeedMedia.podspec */,
+				378D2A7445EB35743CAE9170E52BBFA5 /* LICENSE.md */,
+				213FEDFB668EF13D5A191CC722825193 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		351DA580E836E79D8E481EE12ABF57C9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB2CB4E9FA38493FFF6DA729A7CF22 /* Pods-SampleOfflineApp */,
+				8B77057A9C480BC90FB14BE4572FC727 /* Pods-SampleOfflineAppTests */,
+				A108DE63E1BADC679566D465127F83B7 /* Pods-SampleOfflineAppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3CEB2CB4E9FA38493FFF6DA729A7CF22 /* Pods-SampleOfflineApp */ = {
+			isa = PBXGroup;
+			children = (
+				F5AF16F39308239D1523ED8F73711B61 /* Pods-SampleOfflineApp-acknowledgements.markdown */,
+				FF141D3D026976BAA2930FE8566D9A5B /* Pods-SampleOfflineApp-acknowledgements.plist */,
+				7302E2858DD1236676CF9B218202F969 /* Pods-SampleOfflineApp-dummy.m */,
+				1221AF9F17762176F453EEA66B43C56A /* Pods-SampleOfflineApp-frameworks.sh */,
+				A3A5861116948F4F0A46468183E1928E /* Pods-SampleOfflineApp-resources.sh */,
+				6CBA1E27A0753D0994D76B608A3900F1 /* Pods-SampleOfflineApp.debug.xcconfig */,
+				CED598C0F057759FF59BB4D9F786380C /* Pods-SampleOfflineApp.release.xcconfig */,
+			);
+			name = "Pods-SampleOfflineApp";
+			path = "Target Support Files/Pods-SampleOfflineApp";
+			sourceTree = "<group>";
+		};
+		568825B220EEB642EF092927CE84DA94 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				672A4E325649F51FC9E4D830A3B8D957 /* FeedMedia.xcconfig */,
+				2FF73A9BC1756881D94BC7A0D3DA1653 /* FeedMedia-dummy.m */,
+				2106A3DDB572D9FC7E4044F2CD9558F7 /* FeedMedia-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../Documents/SampleOfflineApp/Pods/Target Support Files/FeedMedia";
+			sourceTree = "<group>";
+		};
+		5A32E81BAAF57F11ADA37F022BF97847 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71855BA998DFB9B04CC07E615E02A35E /* MarqueeLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6DE4378CB29F88587A1D1E607E6225FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				406A42291E81E74DB0230B54FA8084A6 /* libFeedMediaCore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71855BA998DFB9B04CC07E615E02A35E /* MarqueeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				0F0748416F96A4112D3695F0A1B90C07 /* ObjC */,
+				F61C73857633D6AA9B79FBCF7D2BEA69 /* Support Files */,
+			);
+			name = MarqueeLabel;
+			path = MarqueeLabel;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A1BF52DCFA1CFAC2CB664968D1E0D849 /* Development Pods */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				5A32E81BAAF57F11ADA37F022BF97847 /* Pods */,
+				1951950C7078AFF22D832C9AC732EBE8 /* Products */,
+				351DA580E836E79D8E481EE12ABF57C9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B77057A9C480BC90FB14BE4572FC727 /* Pods-SampleOfflineAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				62FA20D9707232D02C4880232B10B14A /* Pods-SampleOfflineAppTests-acknowledgements.markdown */,
+				D5DFC37D4EC700B64CD28B3B7009CEBA /* Pods-SampleOfflineAppTests-acknowledgements.plist */,
+				0C7059EB2BBA71E920B434F89E1D5D75 /* Pods-SampleOfflineAppTests-dummy.m */,
+				A88DB7AB77BC891332FA272478D06AD5 /* Pods-SampleOfflineAppTests-frameworks.sh */,
+				C6803437CC1643DFC8E71CAA33388774 /* Pods-SampleOfflineAppTests-resources.sh */,
+				2E759D64379989F8E61A2B2B08A6A918 /* Pods-SampleOfflineAppTests.debug.xcconfig */,
+				144CE3142B02DA542655EB3E1FCCD276 /* Pods-SampleOfflineAppTests.release.xcconfig */,
+			);
+			name = "Pods-SampleOfflineAppTests";
+			path = "Target Support Files/Pods-SampleOfflineAppTests";
+			sourceTree = "<group>";
+		};
+		A108DE63E1BADC679566D465127F83B7 /* Pods-SampleOfflineAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				929CAAC4C6E23B6F597A47E8C3C8E772 /* Pods-SampleOfflineAppUITests-acknowledgements.markdown */,
+				EB62D20CE134EC770EBE6353B88D0C48 /* Pods-SampleOfflineAppUITests-acknowledgements.plist */,
+				A7D331EA5BF057F5924538E5CFE6B739 /* Pods-SampleOfflineAppUITests-dummy.m */,
+				372DFA301A52ED80E0417AC57B96C76D /* Pods-SampleOfflineAppUITests-frameworks.sh */,
+				D0753884C4160FE5E5A86F6FD0991DE4 /* Pods-SampleOfflineAppUITests-resources.sh */,
+				BCC628B7B3151A00DD222A7A518F8B3B /* Pods-SampleOfflineAppUITests.debug.xcconfig */,
+				959B662350DBAF9A2CCC456EDA3E1F50 /* Pods-SampleOfflineAppUITests.release.xcconfig */,
+			);
+			name = "Pods-SampleOfflineAppUITests";
+			path = "Target Support Files/Pods-SampleOfflineAppUITests";
+			sourceTree = "<group>";
+		};
+		A1BF52DCFA1CFAC2CB664968D1E0D849 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5EFDBAF00C96B06087A970895DB204E /* FeedMedia */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AFC3C422AA618CAE6274FE3871084206 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				8CD74751E3B2FD6A06ED3023EF1EAFED /* FMShareButton.h */,
+				FE0BADF1666D0784BA794B243985BBCC /* FMShareButton.m */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		B5EFDBAF00C96B06087A970895DB204E /* FeedMedia */ = {
+			isa = PBXGroup;
+			children = (
+				087B9C4D45C066A7722B5C021EFFAC46 /* Core */,
+				6DE4378CB29F88587A1D1E607E6225FF /* Frameworks */,
+				27F00D1EF8C3E793ED002327A580E157 /* Pod */,
+				D4081C509B57EA1A2944750608C0487F /* Sources */,
+				568825B220EEB642EF092927CE84DA94 /* Support Files */,
+			);
+			name = FeedMedia;
+			path = "/Users/arv/iOS-SDK-Core/FeedMedia";
+			sourceTree = "<absolute>";
+		};
+		D4081C509B57EA1A2944750608C0487F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FA66E39C78612500B45FBC7872C0E5B7 /* FeedMedia.h */,
+				0A596BD574CB1D07D7DC1FEF9DD79CFC /* FeedMediaCoreProxy.h */,
+				2615F7DD8771AA2EE2219A49AE6BD687 /* FMActivityIndicator.h */,
+				91F6A8C4B8C7EA7DFB4353E69FD71404 /* FMActivityIndicator.m */,
+				CE28C805444117EBA03851DD36346D96 /* FMDislikeButton.h */,
+				E5898C47BE46859A8E9C80ECE14E3CE9 /* FMDislikeButton.m */,
+				8E08FB46D042461C0DF0E33EE0386427 /* FMElapsedTimeLabel.h */,
+				65E954F472DD14F81B7D1FBE96669019 /* FMElapsedTimeLabel.m */,
+				FEEDA32855B84E698903811C07B62E94 /* FMEqualizer.h */,
+				D48E29418A4A8334AEB8475E8014ADCB /* FMEqualizer.m */,
+				05510A5BD9B798F85ABCE0D708F07202 /* FMLikeButton.h */,
+				3C39183D8627D1DECAD3EC80A52D5BCD /* FMLikeButton.m */,
+				DB213DAC7E1CA9D27BC7A44E8EEDF68A /* FMMetadataLabel.h */,
+				7D96E12C60BE298399BC6FA46D360541 /* FMMetadataLabel.m */,
+				5915244EB4C25AA72E09138C54B5E0D0 /* FMPlayPauseButton.h */,
+				B525734AC8E2E11E0F9F7485A5B71FB7 /* FMPlayPauseButton.m */,
+				E2B5789C00C480D9189DD32611C5F820 /* FMProgressView.h */,
+				30B5BF88A6F8F26B0B2B677401E3D639 /* FMProgressView.m */,
+				E1AFEA49CC0A9CDDCB8E6F71E21CB166 /* FMRemainingTimeLabel.h */,
+				503B86959C5EA84B0272222EE3C827A0 /* FMRemainingTimeLabel.m */,
+				7DCCF27F6B203DBDF9B47FF79124DA82 /* FMSkipButton.h */,
+				AB68A3E25949576CACC0B24ADA22A2D0 /* FMSkipButton.m */,
+				18F128914BAAAD7F7BFD74702E5A2FBF /* FMSkipWarningView.h */,
+				1B8430EF1215888B8789FDB23845DE16 /* FMSkipWarningView.m */,
+				F02E0F596AA7A4383D4F8C177EF84F21 /* FMStationButton.h */,
+				E8421DF2A8C6B19524604F4C698A56EE /* FMStationButton.m */,
+				BEB64DD7743B7E2FF84368B4C8F2E788 /* FMStationCrossfader.h */,
+				1B4324C729025B37AE7928558BA7B456 /* FMStationCrossfader.m */,
+				E5EAE7E6AB6CB2C9F98D4F8E4C7D23FB /* FMTotalTimeLabel.h */,
+				47D15D70A2E9CCE20292C433AC7F68F0 /* FMTotalTimeLabel.m */,
+				AFC3C422AA618CAE6274FE3871084206 /* ios */,
+			);
+			name = Sources;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F61C73857633D6AA9B79FBCF7D2BEA69 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01C2EBA296D8AE5B6AFFA5E1117D1BCA /* MarqueeLabel.xcconfig */,
+				62664B53B61D74CFFB42F3C3119B347B /* MarqueeLabel-dummy.m */,
+				1634420F41230F64FC94594FE4AF1549 /* MarqueeLabel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MarqueeLabel";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		441F1BB093BA5CE312F858119180223B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CBB24F46AB9719B575885BE91A12F3 /* MarqueeLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37349253115F8D0AB24AE7516B4FFF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263C4F53C65CA37F0BF2C842C77230C9 /* CWStatusBarNotification.h in Headers */,
+				E6ACD9076336C439CD764248A1676501 /* FeedMedia.h in Headers */,
+				BC1FB452E60ED6A75F9033A6BC05BD53 /* FeedMediaCore.h in Headers */,
+				DC7A3C8B836BB93C882F52CD26ECF922 /* FeedMediaCoreProxy.h in Headers */,
+				2092CA91183DACA4E860C24BA9A4D586 /* FMActivityIndicator.h in Headers */,
+				8E3F501A52DF74468E86605A93C22261 /* FMAudioItem.h in Headers */,
+				75746610729F8A9A5BB565A0C5B74173 /* FMAudioPlayer.h in Headers */,
+				C74AD9C47108450DF2962316F962BE6B /* FMDislikeButton.h in Headers */,
+				40EA759DEC063BB22B3F8A4FCAB90DE5 /* FMElapsedTimeLabel.h in Headers */,
+				5A76BBC543816F2187B58813FBB8076D /* FMEqualizer.h in Headers */,
+				7AF31FA943C90B8D52D2078E20115995 /* FMError.h in Headers */,
+				75F158C44A5629A73C28251601BF0158 /* FMLikeButton.h in Headers */,
+				29869008A9A3C0B898430F387BEEE814 /* FMLockScreenDelegate.h in Headers */,
+				8F143A9C9D5AB14F40FDC226B655DE71 /* FMLog.h in Headers */,
+				4C95D778722A1D746DB97A9F2BB82974 /* FMMetadataLabel.h in Headers */,
+				9E5069E88F43EC8532713C5B450DB717 /* FMPlayPauseButton.h in Headers */,
+				48EAE59B8484D97A90CA8F72C38D957B /* FMProgressView.h in Headers */,
+				85D9F8BE48F8F83AE8D64A39A76D1F37 /* FMRemainingTimeLabel.h in Headers */,
+				350200E037A7E93515B3A4D2BC547C2E /* FMShareButton.h in Headers */,
+				E7CAE52F7545D433CC29FBB6125C016F /* FMSkipButton.h in Headers */,
+				D000B6EFF0589436C04BDB3BE6A6D6EE /* FMSkipWarningView.h in Headers */,
+				8D4583F9B4887C91DF6F6E8C8512A8CE /* FMStation.h in Headers */,
+				41049ABCA737A710B0855B486F9F694F /* FMStationButton.h in Headers */,
+				E638AC37DF04C9D19D647AD3DBE5D19C /* FMStationCrossfader.h in Headers */,
+				8A397AAB77EBA1FEBE8898D02DD1EEF7 /* FMTotalTimeLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B87387E4635A8E793412ACAE0E8B62E /* FeedMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8A46F5B83EED5FD0819820F8FC6C94C /* Build configuration list for PBXNativeTarget "FeedMedia" */;
+			buildPhases = (
+				DA5DB75FFA8DDE8086B6FD58FC8063C9 /* Sources */,
+				559B9C02028F97CDD8B6B08371D671BF /* Frameworks */,
+				B37349253115F8D0AB24AE7516B4FFF1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80310FF4FF147FC0D2B1F261380AA345 /* PBXTargetDependency */,
+			);
+			name = FeedMedia;
+			productName = FeedMedia;
+			productReference = FF2F94D514A497CF879DCCA9CBF7C57C /* libFeedMedia.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2A0516AE600F809EAEEF56A542B75A30 /* Pods-SampleOfflineAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A58B81642C9A9F9B3E9C13E33EF776B /* Build configuration list for PBXNativeTarget "Pods-SampleOfflineAppTests" */;
+			buildPhases = (
+				C40A215EA90B2A0B451C7833341FEC73 /* Sources */,
+				2873DE47272C26773674CB99D37F7643 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1087AEAD0F20CE86024A0A77DDF78E9D /* PBXTargetDependency */,
+			);
+			name = "Pods-SampleOfflineAppTests";
+			productName = "Pods-SampleOfflineAppTests";
+			productReference = F7C5CAB1AEB1C49C53F85B484CCC814C /* libPods-SampleOfflineAppTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C6657AB9BD7DF93A5276C262E468B36D /* Pods-SampleOfflineApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB1EBC140C84CEFB27DE4D47F07733DB /* Build configuration list for PBXNativeTarget "Pods-SampleOfflineApp" */;
+			buildPhases = (
+				DC9ED7BB8B3CD3782F08BEF2472847E5 /* Sources */,
+				F12932923D911C277D2A9225657A03A7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C69DD8BD8C2679192E519A6B8CFB542 /* PBXTargetDependency */,
+				2CB09F75CF1011CDE861CA8A0D3AE8FC /* PBXTargetDependency */,
+			);
+			name = "Pods-SampleOfflineApp";
+			productName = "Pods-SampleOfflineApp";
+			productReference = 94C563E48259C4669BA7806279164D6A /* libPods-SampleOfflineApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C94370F2CC06BB6B4CC0D0E7CE22943F /* MarqueeLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A78B81EAC1A62A03E30801EBA51EDC3 /* Build configuration list for PBXNativeTarget "MarqueeLabel" */;
+			buildPhases = (
+				B74C3121449D9C791AAEFFAAEFB5298E /* Sources */,
+				E9DCE371408CD54CD9075954B85DFA72 /* Frameworks */,
+				441F1BB093BA5CE312F858119180223B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarqueeLabel;
+			productName = MarqueeLabel;
+			productReference = 4106C2894ACDF84E3361838E04EA6494 /* libMarqueeLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D26135E32F8CC107ABBB036076F8ACA6 /* Pods-SampleOfflineAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BFC040571BD267FC1A5F79DD480EB9 /* Build configuration list for PBXNativeTarget "Pods-SampleOfflineAppUITests" */;
+			buildPhases = (
+				D33C1BE7739EA7B8FDB8A8E06B3F811A /* Sources */,
+				0E7C882AE634D806FF5D031B3C03B3CC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2F353B784842458BF2065F57F78FD7D /* PBXTargetDependency */,
+			);
+			name = "Pods-SampleOfflineAppUITests";
+			productName = "Pods-SampleOfflineAppUITests";
+			productReference = 8DA51084D0E7B0FF817D57C141B278CC /* libPods-SampleOfflineAppUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1951950C7078AFF22D832C9AC732EBE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B87387E4635A8E793412ACAE0E8B62E /* FeedMedia */,
+				C94370F2CC06BB6B4CC0D0E7CE22943F /* MarqueeLabel */,
+				C6657AB9BD7DF93A5276C262E468B36D /* Pods-SampleOfflineApp */,
+				2A0516AE600F809EAEEF56A542B75A30 /* Pods-SampleOfflineAppTests */,
+				D26135E32F8CC107ABBB036076F8ACA6 /* Pods-SampleOfflineAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B74C3121449D9C791AAEFFAAEFB5298E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD119DE7C77A0C59B11E3DD223237D64 /* MarqueeLabel-dummy.m in Sources */,
+				0737CE82A119B4DF101E945325102592 /* MarqueeLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40A215EA90B2A0B451C7833341FEC73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36A98927F5C9CA869A7657BF633A78A9 /* Pods-SampleOfflineAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33C1BE7739EA7B8FDB8A8E06B3F811A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C2DD9CD784BF113F0EBA8CB62ACF73 /* Pods-SampleOfflineAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5DB75FFA8DDE8086B6FD58FC8063C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A148D6E4C4652566FDACA3F35271A7D /* FeedMedia-dummy.m in Sources */,
+				19F9271E966C5E08F7DF79AE1C032068 /* FMActivityIndicator.m in Sources */,
+				8CD156F31D3539CDA9B8EC1F614C79F9 /* FMDislikeButton.m in Sources */,
+				F7CEAA85C0B5560158449BBAF2984124 /* FMElapsedTimeLabel.m in Sources */,
+				F24347E8C898FC7ACA7D0267C3E26EAD /* FMEqualizer.m in Sources */,
+				C122000B05DC0B9375578DF5BC97EC49 /* FMLikeButton.m in Sources */,
+				7CC4873043E9B25F35C977B6B6D1F99D /* FMMetadataLabel.m in Sources */,
+				D3C699DBB0B34CCBE6E3F33371AB8539 /* FMPlayPauseButton.m in Sources */,
+				B39BE59B2A2B67B0562E75ECECDCEF2E /* FMProgressView.m in Sources */,
+				333EF3652930EE36885F9323878EF548 /* FMRemainingTimeLabel.m in Sources */,
+				C843D6BA0A187F7A11E2D85B3E49726A /* FMShareButton.m in Sources */,
+				CCDB3CCC6B8AD163BDBC6DA70991792A /* FMSkipButton.m in Sources */,
+				2E8DCAA357DE31C3EC0CDF12C54ED4F7 /* FMSkipWarningView.m in Sources */,
+				CF288857166EF825FC2F5EE1E1188E2A /* FMStationButton.m in Sources */,
+				7C30346B3CA4DF7BE83D65E500C63210 /* FMStationCrossfader.m in Sources */,
+				2754D66C769012C313E97101DD645BB4 /* FMTotalTimeLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9ED7BB8B3CD3782F08BEF2472847E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13616932FF50779629A2CF2E2B566A7C /* Pods-SampleOfflineApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1087AEAD0F20CE86024A0A77DDF78E9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SampleOfflineApp";
+			target = C6657AB9BD7DF93A5276C262E468B36D /* Pods-SampleOfflineApp */;
+			targetProxy = 132ED00BEE74E5BA953A25D433FCAD58 /* PBXContainerItemProxy */;
+		};
+		2CB09F75CF1011CDE861CA8A0D3AE8FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarqueeLabel;
+			target = C94370F2CC06BB6B4CC0D0E7CE22943F /* MarqueeLabel */;
+			targetProxy = 2AE4B13C1F521E48613B096A782DBA12 /* PBXContainerItemProxy */;
+		};
+		80310FF4FF147FC0D2B1F261380AA345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarqueeLabel;
+			target = C94370F2CC06BB6B4CC0D0E7CE22943F /* MarqueeLabel */;
+			targetProxy = 5BD6AC45FE6138DC277DC269F2931BB1 /* PBXContainerItemProxy */;
+		};
+		8C69DD8BD8C2679192E519A6B8CFB542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FeedMedia;
+			target = 1B87387E4635A8E793412ACAE0E8B62E /* FeedMedia */;
+			targetProxy = 55F5311126F2C179180553E6346C96B3 /* PBXContainerItemProxy */;
+		};
+		E2F353B784842458BF2065F57F78FD7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SampleOfflineApp";
+			target = C6657AB9BD7DF93A5276C262E468B36D /* Pods-SampleOfflineApp */;
+			targetProxy = 11570273A65EDCED2A430CD7F8269618 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		016C0884AA2BDFCA3DF6FA032FFF489F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CBA1E27A0753D0994D76B608A3900F1 /* Pods-SampleOfflineApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		094C1BFEF537BE00E4CF11521F379D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 144CE3142B02DA542655EB3E1FCCD276 /* Pods-SampleOfflineAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		095AAF2613D910F0C983A2930EE55526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01C2EBA296D8AE5B6AFFA5E1117D1BCA /* MarqueeLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MarqueeLabel/MarqueeLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MarqueeLabel;
+				PRODUCT_NAME = MarqueeLabel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F17642945A325958B99372576B71383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 672A4E325649F51FC9E4D830A3B8D957 /* FeedMedia.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FeedMedia/FeedMedia-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FeedMedia;
+				PRODUCT_NAME = FeedMedia;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		611999BD37C1E5241A9270E61365EFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E759D64379989F8E61A2B2B08A6A918 /* Pods-SampleOfflineAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7C0DCABFE276AABD8280F2DA675FE2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CED598C0F057759FF59BB4D9F786380C /* Pods-SampleOfflineApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D0A2E9A96F9C5BC3657D1BC1D13F827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01C2EBA296D8AE5B6AFFA5E1117D1BCA /* MarqueeLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MarqueeLabel/MarqueeLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MarqueeLabel;
+				PRODUCT_NAME = MarqueeLabel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1BD7A556195D9DCABF226615E0F30FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 959B662350DBAF9A2CCC456EDA3E1F50 /* Pods-SampleOfflineAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBA254D2EAB2FF224552F59C54CF70D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCC628B7B3151A00DD222A7A518F8B3B /* Pods-SampleOfflineAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCCD1B7C3124F173BB0A95789120ABB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 672A4E325649F51FC9E4D830A3B8D957 /* FeedMedia.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FeedMedia/FeedMedia-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FeedMedia;
+				PRODUCT_NAME = FeedMedia;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A78B81EAC1A62A03E30801EBA51EDC3 /* Build configuration list for PBXNativeTarget "MarqueeLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095AAF2613D910F0C983A2930EE55526 /* Debug */,
+				9D0A2E9A96F9C5BC3657D1BC1D13F827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A58B81642C9A9F9B3E9C13E33EF776B /* Build configuration list for PBXNativeTarget "Pods-SampleOfflineAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611999BD37C1E5241A9270E61365EFEF /* Debug */,
+				094C1BFEF537BE00E4CF11521F379D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BFC040571BD267FC1A5F79DD480EB9 /* Build configuration list for PBXNativeTarget "Pods-SampleOfflineAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA254D2EAB2FF224552F59C54CF70D6 /* Debug */,
+				D1BD7A556195D9DCABF226615E0F30FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8A46F5B83EED5FD0819820F8FC6C94C /* Build configuration list for PBXNativeTarget "FeedMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCD1B7C3124F173BB0A95789120ABB7 /* Debug */,
+				0F17642945A325958B99372576B71383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB1EBC140C84CEFB27DE4D47F07733DB /* Build configuration list for PBXNativeTarget "Pods-SampleOfflineApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016C0884AA2BDFCA3DF6FA032FFF489F /* Debug */,
+				7C0DCABFE276AABD8280F2DA675FE2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
