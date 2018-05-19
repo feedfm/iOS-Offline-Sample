@@ -1,1 +1,1 @@
-../../../../../../iOS-SDK-Core/FeedMedia/Core/FMError.h
+../../../FeedMedia/Core/FMError.h

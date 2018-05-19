@@ -1,25 +1,22 @@
 PODS:
-  - FeedMedia (4.1.3):
+  - FeedMedia (4.1.4-alpha):
     - MarqueeLabel (~> 3.1.4)
   - MarqueeLabel (3.1.4):
     - MarqueeLabel/ObjC (= 3.1.4)
   - MarqueeLabel/ObjC (3.1.4)
 
 DEPENDENCIES:
-  - FeedMedia (from `~/iOS-SDK-Core/FeedMedia`)
+  - FeedMedia (~> 4.1.4-alpha)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - FeedMedia
     - MarqueeLabel
 
-EXTERNAL SOURCES:
-  FeedMedia:
-    :path: "~/iOS-SDK-Core/FeedMedia"
-
 SPEC CHECKSUMS:
-  FeedMedia: 8584613f60ee8bf3895333cfcab8b330240060b0
+  FeedMedia: 35200c5a4d42c8d064ca261b9a150dcc11d498a3
   MarqueeLabel: bf768455fe88d427f71476ebb23f9092b660f40b
 
-PODFILE CHECKSUM: ddc0053cfbbf183498111c31815b92c3a31e6248
+PODFILE CHECKSUM: 1c5565ded68af491787650104e18b559e260e0a9
 
 COCOAPODS: 1.5.2

@@ -1,1 +1,1 @@
-../../../../../../iOS-SDK-Core/FeedMedia/Sources/FMStationCrossfader.h
+../../../FeedMedia/Sources/FMStationCrossfader.h

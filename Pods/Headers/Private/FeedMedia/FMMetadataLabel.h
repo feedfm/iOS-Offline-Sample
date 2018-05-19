@@ -1,1 +1,1 @@
-../../../../../../iOS-SDK-Core/FeedMedia/Sources/FMMetadataLabel.h
+../../../FeedMedia/Sources/FMMetadataLabel.h

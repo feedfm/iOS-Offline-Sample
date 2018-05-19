@@ -1,1 +1,1 @@
-../../../../../../iOS-SDK-Core/FeedMedia/Core/FeedMediaCore.h
+../../../FeedMedia/Core/FeedMediaCore.h

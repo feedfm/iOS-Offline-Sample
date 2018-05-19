@@ -7,57 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0737CE82A119B4DF101E945325102592 /* MarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FA380D5EDD85D54A879FEC1116551 /* MarqueeLabel.m */; };
+		0522117822FE0264996863FFC257E826 /* FMSkipWarningView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9AA44ED3EDF404B77DFF12A99521FE /* FMSkipWarningView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0737CE82A119B4DF101E945325102592 /* MarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB9C5B78C03AAF00497EE02603631DD /* MarqueeLabel.m */; };
 		08C2DD9CD784BF113F0EBA8CB62ACF73 /* Pods-SampleOfflineAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D331EA5BF057F5924538E5CFE6B739 /* Pods-SampleOfflineAppUITests-dummy.m */; };
+		0F6C15EEFE2374F6B176B85E21CA3E5A /* FMShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A3AFF95744E2FBF92B75490B8C8BC /* FMShareButton.m */; };
+		1127730BC2001A9E640718A77AE03E1E /* FMStationButton.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3280B2606309EFC513009CB90E391F /* FMStationButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		13616932FF50779629A2CF2E2B566A7C /* Pods-SampleOfflineApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7302E2858DD1236676CF9B218202F969 /* Pods-SampleOfflineApp-dummy.m */; };
-		19F9271E966C5E08F7DF79AE1C032068 /* FMActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F6A8C4B8C7EA7DFB4353E69FD71404 /* FMActivityIndicator.m */; };
-		2092CA91183DACA4E860C24BA9A4D586 /* FMActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2615F7DD8771AA2EE2219A49AE6BD687 /* FMActivityIndicator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		263C4F53C65CA37F0BF2C842C77230C9 /* CWStatusBarNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 18404CD73E9E88F87AA33ED299270DF7 /* CWStatusBarNotification.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2754D66C769012C313E97101DD645BB4 /* FMTotalTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D15D70A2E9CCE20292C433AC7F68F0 /* FMTotalTimeLabel.m */; };
-		29869008A9A3C0B898430F387BEEE814 /* FMLockScreenDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1259C7EBC6B503C84867337DD6C80BD6 /* FMLockScreenDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A7CCBD118A02FD3B0E8EF0BB46EDA32 /* FeedMediaCoreProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B1FD2C9EF75C378BDB089F4CA95F1F4 /* FeedMediaCoreProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1C18CAC7DCC0007D25D0DDB4BEE32F93 /* FMPlayPauseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F070018AA5482B4C1B866F4DD7B416F7 /* FMPlayPauseButton.m */; };
+		23260CB56F270930294F5BB68E895C5A /* FMLikeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = EE089AA3D0E30DC95460553DAF1F33E9 /* FMLikeButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		288DDAEFEF45CBF48BF9E30E58CE4D94 /* CWStatusBarNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 599E9651E105C05525C69DF501C19F69 /* CWStatusBarNotification.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2BD7CFE859779014E5CDB823093FA60B /* FMStationCrossfader.m in Sources */ = {isa = PBXBuildFile; fileRef = B624991FD26F815D5C5582A0627AFD53 /* FMStationCrossfader.m */; };
 		2D2BAF243C30524F69293F9D6ECFB95A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CA65D53BB6079D2608E610E9B1A6BE /* UIKit.framework */; };
-		2E8DCAA357DE31C3EC0CDF12C54ED4F7 /* FMSkipWarningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8430EF1215888B8789FDB23845DE16 /* FMSkipWarningView.m */; };
-		333EF3652930EE36885F9323878EF548 /* FMRemainingTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 503B86959C5EA84B0272222EE3C827A0 /* FMRemainingTimeLabel.m */; };
-		350200E037A7E93515B3A4D2BC547C2E /* FMShareButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD74751E3B2FD6A06ED3023EF1EAFED /* FMShareButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		359BE169697030C14E6D93D84D3B5672 /* FMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A52A11E992F61FBB4EBA405321E9DE5 /* FMProgressView.m */; };
+		36923054237DE9DFAC23A16239998FF6 /* FMError.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A7246D7FB1DD15037F187DCAA2F612 /* FMError.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		36A98927F5C9CA869A7657BF633A78A9 /* Pods-SampleOfflineAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7059EB2BBA71E920B434F89E1D5D75 /* Pods-SampleOfflineAppTests-dummy.m */; };
-		40EA759DEC063BB22B3F8A4FCAB90DE5 /* FMElapsedTimeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E08FB46D042461C0DF0E33EE0386427 /* FMElapsedTimeLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		41049ABCA737A710B0855B486F9F694F /* FMStationButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F02E0F596AA7A4383D4F8C177EF84F21 /* FMStationButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		48EAE59B8484D97A90CA8F72C38D957B /* FMProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B5789C00C480D9189DD32611C5F820 /* FMProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4C95D778722A1D746DB97A9F2BB82974 /* FMMetadataLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = DB213DAC7E1CA9D27BC7A44E8EEDF68A /* FMMetadataLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5A76BBC543816F2187B58813FBB8076D /* FMEqualizer.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEDA32855B84E698903811C07B62E94 /* FMEqualizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3DCD6F63CF1E6AB6A8879F75CC118FD7 /* FMStation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E4154F2AC87B17A86F432D6FB6523BE /* FMStation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4311B9E02D69341028C74E48913A6C48 /* FMAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = D7411A070FA182D4B5362455594627AD /* FMAudioPlayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5F0C3C0B16CDF1BACC8991F35130F7E7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A36D64024C4285C6815AFEAB4AC7A8A /* QuartzCore.framework */; };
-		65CBB24F46AB9719B575885BE91A12F3 /* MarqueeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = EFDEC920D8B80BEAFB17AF6540BA8E18 /* MarqueeLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		75746610729F8A9A5BB565A0C5B74173 /* FMAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ABC2D398F3C52705F07D37DB68574FB /* FMAudioPlayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		75F158C44A5629A73C28251601BF0158 /* FMLikeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 05510A5BD9B798F85ABCE0D708F07202 /* FMLikeButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		65CBB24F46AB9719B575885BE91A12F3 /* MarqueeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = B95DB70B16680FFF6CA61FD060D83CAD /* MarqueeLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7A0ED645A182B513F2F5464BBC269DF0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FBE801A89C046922F5A836F3C66963 /* CoreMedia.framework */; };
-		7A148D6E4C4652566FDACA3F35271A7D /* FeedMedia-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF73A9BC1756881D94BC7A0D3DA1653 /* FeedMedia-dummy.m */; };
-		7AF31FA943C90B8D52D2078E20115995 /* FMError.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F782A171C82CCC3A5AEE7E1B29A3F1 /* FMError.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7C30346B3CA4DF7BE83D65E500C63210 /* FMStationCrossfader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4324C729025B37AE7928558BA7B456 /* FMStationCrossfader.m */; };
-		7CC4873043E9B25F35C977B6B6D1F99D /* FMMetadataLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D96E12C60BE298399BC6FA46D360541 /* FMMetadataLabel.m */; };
-		85D9F8BE48F8F83AE8D64A39A76D1F37 /* FMRemainingTimeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = E1AFEA49CC0A9CDDCB8E6F71E21CB166 /* FMRemainingTimeLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		813650B880A07DE8031287038A185D1F /* FMLikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5A97D80368B7C3547CC445B355352 /* FMLikeButton.m */; };
+		81EBB2A06A229F2CD0846EAC66164A51 /* FMLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB83EEDA9CF906BBC4E9FBFAFF23F8C /* FMLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		874C68642DC203E81DB907319DA4C246 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DEEB4905DE52C143A7FAFC251CC124 /* AVFoundation.framework */; };
-		8A397AAB77EBA1FEBE8898D02DD1EEF7 /* FMTotalTimeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = E5EAE7E6AB6CB2C9F98D4F8E4C7D23FB /* FMTotalTimeLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8CD156F31D3539CDA9B8EC1F614C79F9 /* FMDislikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E5898C47BE46859A8E9C80ECE14E3CE9 /* FMDislikeButton.m */; };
-		8D4583F9B4887C91DF6F6E8C8512A8CE /* FMStation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7224C8D00FE888EB67BF330353419E68 /* FMStation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8E3F501A52DF74468E86605A93C22261 /* FMAudioItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 980715AC3D71C001F429023910210014 /* FMAudioItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8F143A9C9D5AB14F40FDC226B655DE71 /* FMLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 590F31096334A4E3F453A7BCF2B3D765 /* FMLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9E5069E88F43EC8532713C5B450DB717 /* FMPlayPauseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 5915244EB4C25AA72E09138C54B5E0D0 /* FMPlayPauseButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B39BE59B2A2B67B0562E75ECECDCEF2E /* FMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B5BF88A6F8F26B0B2B677401E3D639 /* FMProgressView.m */; };
-		BC1FB452E60ED6A75F9033A6BC05BD53 /* FeedMediaCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D923D347845E3F5B6F3FB81E09E1C6FD /* FeedMediaCore.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C122000B05DC0B9375578DF5BC97EC49 /* FMLikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C39183D8627D1DECAD3EC80A52D5BCD /* FMLikeButton.m */; };
-		C74AD9C47108450DF2962316F962BE6B /* FMDislikeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CE28C805444117EBA03851DD36346D96 /* FMDislikeButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C843D6BA0A187F7A11E2D85B3E49726A /* FMShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0BADF1666D0784BA794B243985BBCC /* FMShareButton.m */; };
-		CCDB3CCC6B8AD163BDBC6DA70991792A /* FMSkipButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AB68A3E25949576CACC0B24ADA22A2D0 /* FMSkipButton.m */; };
-		CF288857166EF825FC2F5EE1E1188E2A /* FMStationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E8421DF2A8C6B19524604F4C698A56EE /* FMStationButton.m */; };
-		D000B6EFF0589436C04BDB3BE6A6D6EE /* FMSkipWarningView.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F128914BAAAD7F7BFD74702E5A2FBF /* FMSkipWarningView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D3C699DBB0B34CCBE6E3F33371AB8539 /* FMPlayPauseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B525734AC8E2E11E0F9F7485A5B71FB7 /* FMPlayPauseButton.m */; };
-		DC7A3C8B836BB93C882F52CD26ECF922 /* FeedMediaCoreProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A596BD574CB1D07D7DC1FEF9DD79CFC /* FeedMediaCoreProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E638AC37DF04C9D19D647AD3DBE5D19C /* FMStationCrossfader.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB64DD7743B7E2FF84368B4C8F2E788 /* FMStationCrossfader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E6ACD9076336C439CD764248A1676501 /* FeedMedia.h in Headers */ = {isa = PBXBuildFile; fileRef = FA66E39C78612500B45FBC7872C0E5B7 /* FeedMedia.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E7CAE52F7545D433CC29FBB6125C016F /* FMSkipButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DCCF27F6B203DBDF9B47FF79124DA82 /* FMSkipButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F24347E8C898FC7ACA7D0267C3E26EAD /* FMEqualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = D48E29418A4A8334AEB8475E8014ADCB /* FMEqualizer.m */; };
-		F7CEAA85C0B5560158449BBAF2984124 /* FMElapsedTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E954F472DD14F81B7D1FBE96669019 /* FMElapsedTimeLabel.m */; };
-		FD119DE7C77A0C59B11E3DD223237D64 /* MarqueeLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62664B53B61D74CFFB42F3C3119B347B /* MarqueeLabel-dummy.m */; };
+		8ACD5B3FF6CCCB746BFF2C6189613DC4 /* FMSkipButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 984AC99FC6914EE61D5137424363FFE2 /* FMSkipButton.m */; };
+		8E9C85A1CB21585FA498A438E0F8D904 /* FMEqualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B5659BE250E962DE36E6F81142949E /* FMEqualizer.m */; };
+		90D13E4C17FC993A99A100A900E33BD9 /* FMDislikeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D64031D66D5D1C68B1EBCAF9937A8E /* FMDislikeButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94BEACE724A8862B9371C3E740D32762 /* FMRemainingTimeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8157FB26721272C886F6612B6D26F743 /* FMRemainingTimeLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9716A4AA7AC82737421B1828C3B068C5 /* FMShareButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 38FC9E45E7A7244B3407A8A3BAB48D56 /* FMShareButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9728D317C1B640107581D98AEF25A86C /* FMElapsedTimeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C91753CD6533167EC1D38D00EFD3E5E /* FMElapsedTimeLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D06BFF27E7643E758B457C2C8DCCBF7 /* FMLockScreenDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D7C3A1B6B9AE0B04D17B5B72B1406E9F /* FMLockScreenDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1CFD5F88C88C1E1B8FA990B317B9AB1 /* FMSkipButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D492DFDE7ADA7529CACB9283B588114D /* FMSkipButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA290A167794EC7CF18E38D248710213 /* FMAudioItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E13FFB6651BE0DF2CC372AD724D2A3A6 /* FMAudioItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD31574D7FC3384EEBECDFEB949FCC2E /* FMElapsedTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12844A268E894D9DAED977164FE25855 /* FMElapsedTimeLabel.m */; };
+		AE6A7644682982AF2EB9E42C3AE973B8 /* FMTotalTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D02DF94D6DA9410D003F99862A1471 /* FMTotalTimeLabel.m */; };
+		AF50CFA1BC1E89B612F8EB988F802FD9 /* FMDislikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7117918CE187C8767C5B0E5FBBEFAF7A /* FMDislikeButton.m */; };
+		B17D270A873E880A5EA5178F220354D2 /* FMStationCrossfader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DA30A2689F8D92DA61CA9E15E024C26 /* FMStationCrossfader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B27A45BECF6A63703E3990AA0D441F5B /* FeedMedia.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DF01E50F50CD860316E9962BED8FE7D /* FeedMedia.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B64C8E12AE9CE5757670DC1AE178212F /* FMActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9945A4021F51E67F6D07390E83EB3F53 /* FMActivityIndicator.m */; };
+		B8767D0C2F87EA3AC2CBDEFF06FDFB07 /* FeedMedia-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF7A5D9206D36078DCB5CEA43E0B83A /* FeedMedia-dummy.m */; };
+		C3EF991D0E7FBDA7F62495EBA809F699 /* FMStationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 48726DCF4A17ED05042B8E952EC0B8D6 /* FMStationButton.m */; };
+		C579507FB65F4F0AFA8A74B3588689CA /* FMMetadataLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = BEFE7A8E90732B3AB745B041795F549C /* FMMetadataLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CE6AD7AA82E966DEFE321AA56DDCCC1B /* FMMetadataLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E828C6A9EB52C77F328E0B07D43D5C9A /* FMMetadataLabel.m */; };
+		D1D01774649E87531D2724541205F298 /* FMRemainingTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 125A0EE7CDBFF7DDA4DFA995ACAE7F8A /* FMRemainingTimeLabel.m */; };
+		D56EF99E6CD444E5C52DF50036CAA2E7 /* FeedMediaCore.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7DE36D587D60632B8981BB8BDBB3E6 /* FeedMediaCore.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DA9EFA7D61A131053DA22458F621172B /* FMProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3FEBA70ED0650A283FFD31EACFADD6 /* FMProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF191C82827892C32B043D35E07CCE8E /* FMPlayPauseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3510328F91ACCE0F7A6A7A56A3457E7F /* FMPlayPauseButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F0543F400D223F4D38D230360E9ED468 /* FMEqualizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 490D2E68F55C74F9838E59C6B7B7AC51 /* FMEqualizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F760FD5566ED2C2A527A951C8BCD05DF /* FMSkipWarningView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE8304E76B654432E55F8185CF1DD6E /* FMSkipWarningView.m */; };
+		FA8701AA7229FC3B7B01FE960ED10345 /* FMTotalTimeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8260AB0FD9FDD93CB7C5D34D837DA4 /* FMTotalTimeLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FAB9B7B4EEA604F29BAD0F8F55BBE205 /* FMActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 910411BECC5E1FED0DB6DB4244EF0647 /* FMActivityIndicator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD119DE7C77A0C59B11E3DD223237D64 /* MarqueeLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E8A2BDC8740F45CFF1F5F22E70865D /* MarqueeLabel-dummy.m */; };
 		FDD508056814629E73503517FF052FEA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A739647C36A6583FF45AF84C9AACE3 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
@@ -100,88 +100,85 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01C2EBA296D8AE5B6AFFA5E1117D1BCA /* MarqueeLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.xcconfig; sourceTree = "<group>"; };
-		05510A5BD9B798F85ABCE0D708F07202 /* FMLikeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMLikeButton.h; sourceTree = "<group>"; };
-		0A596BD574CB1D07D7DC1FEF9DD79CFC /* FeedMediaCoreProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FeedMediaCoreProxy.h; sourceTree = "<group>"; };
 		0C7059EB2BBA71E920B434F89E1D5D75 /* Pods-SampleOfflineAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleOfflineAppTests-dummy.m"; sourceTree = "<group>"; };
 		1221AF9F17762176F453EEA66B43C56A /* Pods-SampleOfflineApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleOfflineApp-frameworks.sh"; sourceTree = "<group>"; };
-		1259C7EBC6B503C84867337DD6C80BD6 /* FMLockScreenDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMLockScreenDelegate.h; sourceTree = "<group>"; };
+		125A0EE7CDBFF7DDA4DFA995ACAE7F8A /* FMRemainingTimeLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMRemainingTimeLabel.m; path = Sources/FMRemainingTimeLabel.m; sourceTree = "<group>"; };
+		12844A268E894D9DAED977164FE25855 /* FMElapsedTimeLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMElapsedTimeLabel.m; path = Sources/FMElapsedTimeLabel.m; sourceTree = "<group>"; };
 		144CE3142B02DA542655EB3E1FCCD276 /* Pods-SampleOfflineAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleOfflineAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		1634420F41230F64FC94594FE4AF1549 /* MarqueeLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-prefix.pch"; sourceTree = "<group>"; };
-		18404CD73E9E88F87AA33ED299270DF7 /* CWStatusBarNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CWStatusBarNotification.h; sourceTree = "<group>"; };
-		18F128914BAAAD7F7BFD74702E5A2FBF /* FMSkipWarningView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMSkipWarningView.h; sourceTree = "<group>"; };
-		1B4324C729025B37AE7928558BA7B456 /* FMStationCrossfader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMStationCrossfader.m; sourceTree = "<group>"; };
-		1B8430EF1215888B8789FDB23845DE16 /* FMSkipWarningView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMSkipWarningView.m; sourceTree = "<group>"; };
-		2106A3DDB572D9FC7E4044F2CD9558F7 /* FeedMedia-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeedMedia-prefix.pch"; sourceTree = "<group>"; };
-		213FEDFB668EF13D5A191CC722825193 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2615F7DD8771AA2EE2219A49AE6BD687 /* FMActivityIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMActivityIndicator.h; sourceTree = "<group>"; };
-		2ABC2D398F3C52705F07D37DB68574FB /* FMAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMAudioPlayer.h; sourceTree = "<group>"; };
+		2AB9C5B78C03AAF00497EE02603631DD /* MarqueeLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MarqueeLabel.m; path = Sources/ObjC/MarqueeLabel.m; sourceTree = "<group>"; };
+		2DA30A2689F8D92DA61CA9E15E024C26 /* FMStationCrossfader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMStationCrossfader.h; path = Sources/FMStationCrossfader.h; sourceTree = "<group>"; };
 		2E759D64379989F8E61A2B2B08A6A918 /* Pods-SampleOfflineAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleOfflineAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2FF73A9BC1756881D94BC7A0D3DA1653 /* FeedMedia-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FeedMedia-dummy.m"; sourceTree = "<group>"; };
-		30B5BF88A6F8F26B0B2B677401E3D639 /* FMProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMProgressView.m; sourceTree = "<group>"; };
+		3510328F91ACCE0F7A6A7A56A3457E7F /* FMPlayPauseButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMPlayPauseButton.h; path = Sources/FMPlayPauseButton.h; sourceTree = "<group>"; };
 		372DFA301A52ED80E0417AC57B96C76D /* Pods-SampleOfflineAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleOfflineAppUITests-frameworks.sh"; sourceTree = "<group>"; };
-		378D2A7445EB35743CAE9170E52BBFA5 /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.md; sourceTree = "<group>"; };
-		3C39183D8627D1DECAD3EC80A52D5BCD /* FMLikeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMLikeButton.m; sourceTree = "<group>"; };
-		406A42291E81E74DB0230B54FA8084A6 /* libFeedMediaCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFeedMediaCore.a; path = Core/libFeedMediaCore.a; sourceTree = "<group>"; };
+		38FC9E45E7A7244B3407A8A3BAB48D56 /* FMShareButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMShareButton.h; path = Sources/ios/FMShareButton.h; sourceTree = "<group>"; };
+		3A52A11E992F61FBB4EBA405321E9DE5 /* FMProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMProgressView.m; path = Sources/FMProgressView.m; sourceTree = "<group>"; };
+		3DF01E50F50CD860316E9962BED8FE7D /* FeedMedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FeedMedia.h; path = Sources/FeedMedia.h; sourceTree = "<group>"; };
 		4106C2894ACDF84E3361838E04EA6494 /* libMarqueeLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMarqueeLabel.a; path = libMarqueeLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		43F5B9F068D47B42B19E8EB96D040B63 /* FeedMedia.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FeedMedia.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		47D15D70A2E9CCE20292C433AC7F68F0 /* FMTotalTimeLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMTotalTimeLabel.m; sourceTree = "<group>"; };
-		503B86959C5EA84B0272222EE3C827A0 /* FMRemainingTimeLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMRemainingTimeLabel.m; sourceTree = "<group>"; };
-		590F31096334A4E3F453A7BCF2B3D765 /* FMLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMLog.h; sourceTree = "<group>"; };
-		5915244EB4C25AA72E09138C54B5E0D0 /* FMPlayPauseButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMPlayPauseButton.h; sourceTree = "<group>"; };
+		48726DCF4A17ED05042B8E952EC0B8D6 /* FMStationButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMStationButton.m; path = Sources/FMStationButton.m; sourceTree = "<group>"; };
+		490D2E68F55C74F9838E59C6B7B7AC51 /* FMEqualizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMEqualizer.h; path = Sources/FMEqualizer.h; sourceTree = "<group>"; };
+		4DE1A40EB3E6EE7BCFDC8A182E78B315 /* MarqueeLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.xcconfig; sourceTree = "<group>"; };
+		4EF5A97D80368B7C3547CC445B355352 /* FMLikeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMLikeButton.m; path = Sources/FMLikeButton.m; sourceTree = "<group>"; };
+		53EB4AC1AF95CCA4485F81B2BBE294D7 /* FeedMedia.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FeedMedia.xcconfig; sourceTree = "<group>"; };
+		599E9651E105C05525C69DF501C19F69 /* CWStatusBarNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWStatusBarNotification.h; path = Core/CWStatusBarNotification.h; sourceTree = "<group>"; };
 		5A36D64024C4285C6815AFEAB4AC7A8A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		62664B53B61D74CFFB42F3C3119B347B /* MarqueeLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarqueeLabel-dummy.m"; sourceTree = "<group>"; };
 		62FA20D9707232D02C4880232B10B14A /* Pods-SampleOfflineAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleOfflineAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		65E954F472DD14F81B7D1FBE96669019 /* FMElapsedTimeLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMElapsedTimeLabel.m; sourceTree = "<group>"; };
-		672A4E325649F51FC9E4D830A3B8D957 /* FeedMedia.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FeedMedia.xcconfig; sourceTree = "<group>"; };
+		6B1FD2C9EF75C378BDB089F4CA95F1F4 /* FeedMediaCoreProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FeedMediaCoreProxy.h; path = Sources/FeedMediaCoreProxy.h; sourceTree = "<group>"; };
+		6CB83EEDA9CF906BBC4E9FBFAFF23F8C /* FMLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMLog.h; path = Core/FMLog.h; sourceTree = "<group>"; };
 		6CBA1E27A0753D0994D76B608A3900F1 /* Pods-SampleOfflineApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleOfflineApp.debug.xcconfig"; sourceTree = "<group>"; };
-		6F1FA380D5EDD85D54A879FEC1116551 /* MarqueeLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MarqueeLabel.m; path = Sources/ObjC/MarqueeLabel.m; sourceTree = "<group>"; };
-		7224C8D00FE888EB67BF330353419E68 /* FMStation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMStation.h; sourceTree = "<group>"; };
+		7117918CE187C8767C5B0E5FBBEFAF7A /* FMDislikeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDislikeButton.m; path = Sources/FMDislikeButton.m; sourceTree = "<group>"; };
 		7302E2858DD1236676CF9B218202F969 /* Pods-SampleOfflineApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleOfflineApp-dummy.m"; sourceTree = "<group>"; };
-		7D96E12C60BE298399BC6FA46D360541 /* FMMetadataLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMMetadataLabel.m; sourceTree = "<group>"; };
-		7DCCF27F6B203DBDF9B47FF79124DA82 /* FMSkipButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMSkipButton.h; sourceTree = "<group>"; };
+		7B8717E0A1D80AE2813AC919E8F8B1C8 /* libFeedMediaCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFeedMediaCore.a; path = Core/libFeedMediaCore.a; sourceTree = "<group>"; };
+		7E4154F2AC87B17A86F432D6FB6523BE /* FMStation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMStation.h; path = Core/FMStation.h; sourceTree = "<group>"; };
+		8157FB26721272C886F6612B6D26F743 /* FMRemainingTimeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMRemainingTimeLabel.h; path = Sources/FMRemainingTimeLabel.h; sourceTree = "<group>"; };
+		8188639E8441BE711536EC7A8E1A9F46 /* FeedMedia-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeedMedia-prefix.pch"; sourceTree = "<group>"; };
 		86A739647C36A6583FF45AF84C9AACE3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
-		8CD74751E3B2FD6A06ED3023EF1EAFED /* FMShareButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMShareButton.h; sourceTree = "<group>"; };
+		8B1A3AFF95744E2FBF92B75490B8C8BC /* FMShareButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMShareButton.m; path = Sources/ios/FMShareButton.m; sourceTree = "<group>"; };
+		8C91753CD6533167EC1D38D00EFD3E5E /* FMElapsedTimeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMElapsedTimeLabel.h; path = Sources/FMElapsedTimeLabel.h; sourceTree = "<group>"; };
 		8DA51084D0E7B0FF817D57C141B278CC /* libPods-SampleOfflineAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SampleOfflineAppUITests.a"; path = "libPods-SampleOfflineAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E08FB46D042461C0DF0E33EE0386427 /* FMElapsedTimeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMElapsedTimeLabel.h; sourceTree = "<group>"; };
-		91F6A8C4B8C7EA7DFB4353E69FD71404 /* FMActivityIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMActivityIndicator.m; sourceTree = "<group>"; };
+		8E8260AB0FD9FDD93CB7C5D34D837DA4 /* FMTotalTimeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMTotalTimeLabel.h; path = Sources/FMTotalTimeLabel.h; sourceTree = "<group>"; };
+		910411BECC5E1FED0DB6DB4244EF0647 /* FMActivityIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMActivityIndicator.h; path = Sources/FMActivityIndicator.h; sourceTree = "<group>"; };
 		929CAAC4C6E23B6F597A47E8C3C8E772 /* Pods-SampleOfflineAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleOfflineAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94C563E48259C4669BA7806279164D6A /* libPods-SampleOfflineApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SampleOfflineApp.a"; path = "libPods-SampleOfflineApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		959B662350DBAF9A2CCC456EDA3E1F50 /* Pods-SampleOfflineAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleOfflineAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		980715AC3D71C001F429023910210014 /* FMAudioItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMAudioItem.h; sourceTree = "<group>"; };
+		984AC99FC6914EE61D5137424363FFE2 /* FMSkipButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMSkipButton.m; path = Sources/FMSkipButton.m; sourceTree = "<group>"; };
+		9945A4021F51E67F6D07390E83EB3F53 /* FMActivityIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMActivityIndicator.m; path = Sources/FMActivityIndicator.m; sourceTree = "<group>"; };
+		99D64031D66D5D1C68B1EBCAF9937A8E /* FMDislikeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDislikeButton.h; path = Sources/FMDislikeButton.h; sourceTree = "<group>"; };
+		9C3FEBA70ED0650A283FFD31EACFADD6 /* FMProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMProgressView.h; path = Sources/FMProgressView.h; sourceTree = "<group>"; };
 		A3A5861116948F4F0A46468183E1928E /* Pods-SampleOfflineApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleOfflineApp-resources.sh"; sourceTree = "<group>"; };
 		A7D331EA5BF057F5924538E5CFE6B739 /* Pods-SampleOfflineAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleOfflineAppUITests-dummy.m"; sourceTree = "<group>"; };
 		A88DB7AB77BC891332FA272478D06AD5 /* Pods-SampleOfflineAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleOfflineAppTests-frameworks.sh"; sourceTree = "<group>"; };
-		AB68A3E25949576CACC0B24ADA22A2D0 /* FMSkipButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMSkipButton.m; sourceTree = "<group>"; };
-		B525734AC8E2E11E0F9F7485A5B71FB7 /* FMPlayPauseButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMPlayPauseButton.m; sourceTree = "<group>"; };
+		AD54268281BC27165E3E25700940084F /* MarqueeLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-prefix.pch"; sourceTree = "<group>"; };
+		AFF7A5D9206D36078DCB5CEA43E0B83A /* FeedMedia-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FeedMedia-dummy.m"; sourceTree = "<group>"; };
+		B624991FD26F815D5C5582A0627AFD53 /* FMStationCrossfader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMStationCrossfader.m; path = Sources/FMStationCrossfader.m; sourceTree = "<group>"; };
 		B6CA65D53BB6079D2608E610E9B1A6BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B95DB70B16680FFF6CA61FD060D83CAD /* MarqueeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MarqueeLabel.h; path = Sources/ObjC/MarqueeLabel.h; sourceTree = "<group>"; };
+		B9E8A2BDC8740F45CFF1F5F22E70865D /* MarqueeLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarqueeLabel-dummy.m"; sourceTree = "<group>"; };
 		BCC628B7B3151A00DD222A7A518F8B3B /* Pods-SampleOfflineAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleOfflineAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		BEB64DD7743B7E2FF84368B4C8F2E788 /* FMStationCrossfader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMStationCrossfader.h; sourceTree = "<group>"; };
+		BEFE7A8E90732B3AB745B041795F549C /* FMMetadataLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMMetadataLabel.h; path = Sources/FMMetadataLabel.h; sourceTree = "<group>"; };
+		BF3280B2606309EFC513009CB90E391F /* FMStationButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMStationButton.h; path = Sources/FMStationButton.h; sourceTree = "<group>"; };
+		C3A7246D7FB1DD15037F187DCAA2F612 /* FMError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMError.h; path = Core/FMError.h; sourceTree = "<group>"; };
 		C6803437CC1643DFC8E71CAA33388774 /* Pods-SampleOfflineAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleOfflineAppTests-resources.sh"; sourceTree = "<group>"; };
-		CE28C805444117EBA03851DD36346D96 /* FMDislikeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMDislikeButton.h; sourceTree = "<group>"; };
 		CED598C0F057759FF59BB4D9F786380C /* Pods-SampleOfflineApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleOfflineApp.release.xcconfig"; sourceTree = "<group>"; };
+		CF9AA44ED3EDF404B77DFF12A99521FE /* FMSkipWarningView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMSkipWarningView.h; path = Sources/FMSkipWarningView.h; sourceTree = "<group>"; };
 		D0753884C4160FE5E5A86F6FD0991DE4 /* Pods-SampleOfflineAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleOfflineAppUITests-resources.sh"; sourceTree = "<group>"; };
-		D48E29418A4A8334AEB8475E8014ADCB /* FMEqualizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMEqualizer.m; sourceTree = "<group>"; };
+		D492DFDE7ADA7529CACB9283B588114D /* FMSkipButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMSkipButton.h; path = Sources/FMSkipButton.h; sourceTree = "<group>"; };
 		D5DEEB4905DE52C143A7FAFC251CC124 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		D5DFC37D4EC700B64CD28B3B7009CEBA /* Pods-SampleOfflineAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleOfflineAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D923D347845E3F5B6F3FB81E09E1C6FD /* FeedMediaCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FeedMediaCore.h; sourceTree = "<group>"; };
-		DB213DAC7E1CA9D27BC7A44E8EEDF68A /* FMMetadataLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMMetadataLabel.h; sourceTree = "<group>"; };
-		E1AFEA49CC0A9CDDCB8E6F71E21CB166 /* FMRemainingTimeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMRemainingTimeLabel.h; sourceTree = "<group>"; };
-		E2B5789C00C480D9189DD32611C5F820 /* FMProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMProgressView.h; sourceTree = "<group>"; };
-		E3F782A171C82CCC3A5AEE7E1B29A3F1 /* FMError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMError.h; sourceTree = "<group>"; };
-		E5898C47BE46859A8E9C80ECE14E3CE9 /* FMDislikeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMDislikeButton.m; sourceTree = "<group>"; };
-		E5EAE7E6AB6CB2C9F98D4F8E4C7D23FB /* FMTotalTimeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMTotalTimeLabel.h; sourceTree = "<group>"; };
+		D7411A070FA182D4B5362455594627AD /* FMAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMAudioPlayer.h; path = Core/FMAudioPlayer.h; sourceTree = "<group>"; };
+		D7C3A1B6B9AE0B04D17B5B72B1406E9F /* FMLockScreenDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMLockScreenDelegate.h; path = Core/FMLockScreenDelegate.h; sourceTree = "<group>"; };
+		DD7DE36D587D60632B8981BB8BDBB3E6 /* FeedMediaCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FeedMediaCore.h; path = Core/FeedMediaCore.h; sourceTree = "<group>"; };
+		E13FFB6651BE0DF2CC372AD724D2A3A6 /* FMAudioItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMAudioItem.h; path = Core/FMAudioItem.h; sourceTree = "<group>"; };
 		E5FBE801A89C046922F5A836F3C66963 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
-		E8421DF2A8C6B19524604F4C698A56EE /* FMStationButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMStationButton.m; sourceTree = "<group>"; };
+		E828C6A9EB52C77F328E0B07D43D5C9A /* FMMetadataLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMMetadataLabel.m; path = Sources/FMMetadataLabel.m; sourceTree = "<group>"; };
 		EB62D20CE134EC770EBE6353B88D0C48 /* Pods-SampleOfflineAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleOfflineAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EFDEC920D8B80BEAFB17AF6540BA8E18 /* MarqueeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MarqueeLabel.h; path = Sources/ObjC/MarqueeLabel.h; sourceTree = "<group>"; };
-		F02E0F596AA7A4383D4F8C177EF84F21 /* FMStationButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMStationButton.h; sourceTree = "<group>"; };
+		EE089AA3D0E30DC95460553DAF1F33E9 /* FMLikeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMLikeButton.h; path = Sources/FMLikeButton.h; sourceTree = "<group>"; };
+		F070018AA5482B4C1B866F4DD7B416F7 /* FMPlayPauseButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMPlayPauseButton.m; path = Sources/FMPlayPauseButton.m; sourceTree = "<group>"; };
+		F2B5659BE250E962DE36E6F81142949E /* FMEqualizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMEqualizer.m; path = Sources/FMEqualizer.m; sourceTree = "<group>"; };
 		F5AF16F39308239D1523ED8F73711B61 /* Pods-SampleOfflineApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleOfflineApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5D02DF94D6DA9410D003F99862A1471 /* FMTotalTimeLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMTotalTimeLabel.m; path = Sources/FMTotalTimeLabel.m; sourceTree = "<group>"; };
 		F7C5CAB1AEB1C49C53F85B484CCC814C /* libPods-SampleOfflineAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SampleOfflineAppTests.a"; path = "libPods-SampleOfflineAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA66E39C78612500B45FBC7872C0E5B7 /* FeedMedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FeedMedia.h; sourceTree = "<group>"; };
-		FE0BADF1666D0784BA794B243985BBCC /* FMShareButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMShareButton.m; sourceTree = "<group>"; };
-		FEEDA32855B84E698903811C07B62E94 /* FMEqualizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMEqualizer.h; sourceTree = "<group>"; };
+		FBE8304E76B654432E55F8185CF1DD6E /* FMSkipWarningView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMSkipWarningView.m; path = Sources/FMSkipWarningView.m; sourceTree = "<group>"; };
 		FF141D3D026976BAA2930FE8566D9A5B /* Pods-SampleOfflineApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleOfflineApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		FF2F94D514A497CF879DCCA9CBF7C57C /* libFeedMedia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFeedMedia.a; path = libFeedMedia.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -242,31 +239,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		087B9C4D45C066A7722B5C021EFFAC46 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				18404CD73E9E88F87AA33ED299270DF7 /* CWStatusBarNotification.h */,
-				D923D347845E3F5B6F3FB81E09E1C6FD /* FeedMediaCore.h */,
-				980715AC3D71C001F429023910210014 /* FMAudioItem.h */,
-				2ABC2D398F3C52705F07D37DB68574FB /* FMAudioPlayer.h */,
-				E3F782A171C82CCC3A5AEE7E1B29A3F1 /* FMError.h */,
-				1259C7EBC6B503C84867337DD6C80BD6 /* FMLockScreenDelegate.h */,
-				590F31096334A4E3F453A7BCF2B3D765 /* FMLog.h */,
-				7224C8D00FE888EB67BF330353419E68 /* FMStation.h */,
-			);
-			name = Core;
-			path = Core;
-			sourceTree = "<group>";
-		};
-		0F0748416F96A4112D3695F0A1B90C07 /* ObjC */ = {
-			isa = PBXGroup;
-			children = (
-				EFDEC920D8B80BEAFB17AF6540BA8E18 /* MarqueeLabel.h */,
-				6F1FA380D5EDD85D54A879FEC1116551 /* MarqueeLabel.m */,
-			);
-			name = ObjC;
-			sourceTree = "<group>";
-		};
 		1951950C7078AFF22D832C9AC732EBE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,16 +257,6 @@
 				07F7EC0ED6EC44E55D433A2A82027C8C /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		27F00D1EF8C3E793ED002327A580E157 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				43F5B9F068D47B42B19E8EB96D040B63 /* FeedMedia.podspec */,
-				378D2A7445EB35743CAE9170E52BBFA5 /* LICENSE.md */,
-				213FEDFB668EF13D5A191CC722825193 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		351DA580E836E79D8E481EE12ABF57C9 /* Targets Support Files */ = {
@@ -322,50 +284,20 @@
 			path = "Target Support Files/Pods-SampleOfflineApp";
 			sourceTree = "<group>";
 		};
-		568825B220EEB642EF092927CE84DA94 /* Support Files */ = {
+		44DCEA7FB4A17FB734698738DD8F2727 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				672A4E325649F51FC9E4D830A3B8D957 /* FeedMedia.xcconfig */,
-				2FF73A9BC1756881D94BC7A0D3DA1653 /* FeedMedia-dummy.m */,
-				2106A3DDB572D9FC7E4044F2CD9558F7 /* FeedMedia-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../../Documents/SampleOfflineApp/Pods/Target Support Files/FeedMedia";
-			sourceTree = "<group>";
-		};
-		5A32E81BAAF57F11ADA37F022BF97847 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				71855BA998DFB9B04CC07E615E02A35E /* MarqueeLabel */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		6DE4378CB29F88587A1D1E607E6225FF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				406A42291E81E74DB0230B54FA8084A6 /* libFeedMediaCore.a */,
+				7B8717E0A1D80AE2813AC919E8F8B1C8 /* libFeedMediaCore.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		71855BA998DFB9B04CC07E615E02A35E /* MarqueeLabel */ = {
-			isa = PBXGroup;
-			children = (
-				0F0748416F96A4112D3695F0A1B90C07 /* ObjC */,
-				F61C73857633D6AA9B79FBCF7D2BEA69 /* Support Files */,
-			);
-			name = MarqueeLabel;
-			path = MarqueeLabel;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A1BF52DCFA1CFAC2CB664968D1E0D849 /* Development Pods */,
 				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
-				5A32E81BAAF57F11ADA37F022BF97847 /* Pods */,
+				B0161B2DBADB326766097D3FE8DC9E7C /* Pods */,
 				1951950C7078AFF22D832C9AC732EBE8 /* Products */,
 				351DA580E836E79D8E481EE12ABF57C9 /* Targets Support Files */,
 			);
@@ -386,6 +318,67 @@
 			path = "Target Support Files/Pods-SampleOfflineAppTests";
 			sourceTree = "<group>";
 		};
+		8BAEEE5763AA2A478E13635190468445 /* FeedMedia */ = {
+			isa = PBXGroup;
+			children = (
+				599E9651E105C05525C69DF501C19F69 /* CWStatusBarNotification.h */,
+				3DF01E50F50CD860316E9962BED8FE7D /* FeedMedia.h */,
+				DD7DE36D587D60632B8981BB8BDBB3E6 /* FeedMediaCore.h */,
+				6B1FD2C9EF75C378BDB089F4CA95F1F4 /* FeedMediaCoreProxy.h */,
+				910411BECC5E1FED0DB6DB4244EF0647 /* FMActivityIndicator.h */,
+				9945A4021F51E67F6D07390E83EB3F53 /* FMActivityIndicator.m */,
+				E13FFB6651BE0DF2CC372AD724D2A3A6 /* FMAudioItem.h */,
+				D7411A070FA182D4B5362455594627AD /* FMAudioPlayer.h */,
+				99D64031D66D5D1C68B1EBCAF9937A8E /* FMDislikeButton.h */,
+				7117918CE187C8767C5B0E5FBBEFAF7A /* FMDislikeButton.m */,
+				8C91753CD6533167EC1D38D00EFD3E5E /* FMElapsedTimeLabel.h */,
+				12844A268E894D9DAED977164FE25855 /* FMElapsedTimeLabel.m */,
+				490D2E68F55C74F9838E59C6B7B7AC51 /* FMEqualizer.h */,
+				F2B5659BE250E962DE36E6F81142949E /* FMEqualizer.m */,
+				C3A7246D7FB1DD15037F187DCAA2F612 /* FMError.h */,
+				EE089AA3D0E30DC95460553DAF1F33E9 /* FMLikeButton.h */,
+				4EF5A97D80368B7C3547CC445B355352 /* FMLikeButton.m */,
+				D7C3A1B6B9AE0B04D17B5B72B1406E9F /* FMLockScreenDelegate.h */,
+				6CB83EEDA9CF906BBC4E9FBFAFF23F8C /* FMLog.h */,
+				BEFE7A8E90732B3AB745B041795F549C /* FMMetadataLabel.h */,
+				E828C6A9EB52C77F328E0B07D43D5C9A /* FMMetadataLabel.m */,
+				3510328F91ACCE0F7A6A7A56A3457E7F /* FMPlayPauseButton.h */,
+				F070018AA5482B4C1B866F4DD7B416F7 /* FMPlayPauseButton.m */,
+				9C3FEBA70ED0650A283FFD31EACFADD6 /* FMProgressView.h */,
+				3A52A11E992F61FBB4EBA405321E9DE5 /* FMProgressView.m */,
+				8157FB26721272C886F6612B6D26F743 /* FMRemainingTimeLabel.h */,
+				125A0EE7CDBFF7DDA4DFA995ACAE7F8A /* FMRemainingTimeLabel.m */,
+				38FC9E45E7A7244B3407A8A3BAB48D56 /* FMShareButton.h */,
+				8B1A3AFF95744E2FBF92B75490B8C8BC /* FMShareButton.m */,
+				D492DFDE7ADA7529CACB9283B588114D /* FMSkipButton.h */,
+				984AC99FC6914EE61D5137424363FFE2 /* FMSkipButton.m */,
+				CF9AA44ED3EDF404B77DFF12A99521FE /* FMSkipWarningView.h */,
+				FBE8304E76B654432E55F8185CF1DD6E /* FMSkipWarningView.m */,
+				7E4154F2AC87B17A86F432D6FB6523BE /* FMStation.h */,
+				BF3280B2606309EFC513009CB90E391F /* FMStationButton.h */,
+				48726DCF4A17ED05042B8E952EC0B8D6 /* FMStationButton.m */,
+				2DA30A2689F8D92DA61CA9E15E024C26 /* FMStationCrossfader.h */,
+				B624991FD26F815D5C5582A0627AFD53 /* FMStationCrossfader.m */,
+				8E8260AB0FD9FDD93CB7C5D34D837DA4 /* FMTotalTimeLabel.h */,
+				F5D02DF94D6DA9410D003F99862A1471 /* FMTotalTimeLabel.m */,
+				44DCEA7FB4A17FB734698738DD8F2727 /* Frameworks */,
+				F80DBAF9268E531DF888E5692927885E /* Support Files */,
+			);
+			name = FeedMedia;
+			path = FeedMedia;
+			sourceTree = "<group>";
+		};
+		9A07820DAF2923B73BAADC684CB8A40D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DE1A40EB3E6EE7BCFDC8A182E78B315 /* MarqueeLabel.xcconfig */,
+				B9E8A2BDC8740F45CFF1F5F22E70865D /* MarqueeLabel-dummy.m */,
+				AD54268281BC27165E3E25700940084F /* MarqueeLabel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MarqueeLabel";
+			sourceTree = "<group>";
+		};
 		A108DE63E1BADC679566D465127F83B7 /* Pods-SampleOfflineAppUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -401,85 +394,43 @@
 			path = "Target Support Files/Pods-SampleOfflineAppUITests";
 			sourceTree = "<group>";
 		};
-		A1BF52DCFA1CFAC2CB664968D1E0D849 /* Development Pods */ = {
+		B0161B2DBADB326766097D3FE8DC9E7C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B5EFDBAF00C96B06087A970895DB204E /* FeedMedia */,
+				8BAEEE5763AA2A478E13635190468445 /* FeedMedia */,
+				E8B9EC9646DDD2A3653FCD5CA809DE56 /* MarqueeLabel */,
 			);
-			name = "Development Pods";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		AFC3C422AA618CAE6274FE3871084206 /* ios */ = {
+		C6A1ED2164EFCCE5CBACCBE70E36F581 /* ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				8CD74751E3B2FD6A06ED3023EF1EAFED /* FMShareButton.h */,
-				FE0BADF1666D0784BA794B243985BBCC /* FMShareButton.m */,
+				B95DB70B16680FFF6CA61FD060D83CAD /* MarqueeLabel.h */,
+				2AB9C5B78C03AAF00497EE02603631DD /* MarqueeLabel.m */,
 			);
-			name = ios;
-			path = ios;
+			name = ObjC;
 			sourceTree = "<group>";
 		};
-		B5EFDBAF00C96B06087A970895DB204E /* FeedMedia */ = {
+		E8B9EC9646DDD2A3653FCD5CA809DE56 /* MarqueeLabel */ = {
 			isa = PBXGroup;
 			children = (
-				087B9C4D45C066A7722B5C021EFFAC46 /* Core */,
-				6DE4378CB29F88587A1D1E607E6225FF /* Frameworks */,
-				27F00D1EF8C3E793ED002327A580E157 /* Pod */,
-				D4081C509B57EA1A2944750608C0487F /* Sources */,
-				568825B220EEB642EF092927CE84DA94 /* Support Files */,
+				C6A1ED2164EFCCE5CBACCBE70E36F581 /* ObjC */,
+				9A07820DAF2923B73BAADC684CB8A40D /* Support Files */,
 			);
-			name = FeedMedia;
-			path = "/Users/arv/iOS-SDK-Core/FeedMedia";
-			sourceTree = "<absolute>";
-		};
-		D4081C509B57EA1A2944750608C0487F /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				FA66E39C78612500B45FBC7872C0E5B7 /* FeedMedia.h */,
-				0A596BD574CB1D07D7DC1FEF9DD79CFC /* FeedMediaCoreProxy.h */,
-				2615F7DD8771AA2EE2219A49AE6BD687 /* FMActivityIndicator.h */,
-				91F6A8C4B8C7EA7DFB4353E69FD71404 /* FMActivityIndicator.m */,
-				CE28C805444117EBA03851DD36346D96 /* FMDislikeButton.h */,
-				E5898C47BE46859A8E9C80ECE14E3CE9 /* FMDislikeButton.m */,
-				8E08FB46D042461C0DF0E33EE0386427 /* FMElapsedTimeLabel.h */,
-				65E954F472DD14F81B7D1FBE96669019 /* FMElapsedTimeLabel.m */,
-				FEEDA32855B84E698903811C07B62E94 /* FMEqualizer.h */,
-				D48E29418A4A8334AEB8475E8014ADCB /* FMEqualizer.m */,
-				05510A5BD9B798F85ABCE0D708F07202 /* FMLikeButton.h */,
-				3C39183D8627D1DECAD3EC80A52D5BCD /* FMLikeButton.m */,
-				DB213DAC7E1CA9D27BC7A44E8EEDF68A /* FMMetadataLabel.h */,
-				7D96E12C60BE298399BC6FA46D360541 /* FMMetadataLabel.m */,
-				5915244EB4C25AA72E09138C54B5E0D0 /* FMPlayPauseButton.h */,
-				B525734AC8E2E11E0F9F7485A5B71FB7 /* FMPlayPauseButton.m */,
-				E2B5789C00C480D9189DD32611C5F820 /* FMProgressView.h */,
-				30B5BF88A6F8F26B0B2B677401E3D639 /* FMProgressView.m */,
-				E1AFEA49CC0A9CDDCB8E6F71E21CB166 /* FMRemainingTimeLabel.h */,
-				503B86959C5EA84B0272222EE3C827A0 /* FMRemainingTimeLabel.m */,
-				7DCCF27F6B203DBDF9B47FF79124DA82 /* FMSkipButton.h */,
-				AB68A3E25949576CACC0B24ADA22A2D0 /* FMSkipButton.m */,
-				18F128914BAAAD7F7BFD74702E5A2FBF /* FMSkipWarningView.h */,
-				1B8430EF1215888B8789FDB23845DE16 /* FMSkipWarningView.m */,
-				F02E0F596AA7A4383D4F8C177EF84F21 /* FMStationButton.h */,
-				E8421DF2A8C6B19524604F4C698A56EE /* FMStationButton.m */,
-				BEB64DD7743B7E2FF84368B4C8F2E788 /* FMStationCrossfader.h */,
-				1B4324C729025B37AE7928558BA7B456 /* FMStationCrossfader.m */,
-				E5EAE7E6AB6CB2C9F98D4F8E4C7D23FB /* FMTotalTimeLabel.h */,
-				47D15D70A2E9CCE20292C433AC7F68F0 /* FMTotalTimeLabel.m */,
-				AFC3C422AA618CAE6274FE3871084206 /* ios */,
-			);
-			name = Sources;
-			path = Sources;
+			name = MarqueeLabel;
+			path = MarqueeLabel;
 			sourceTree = "<group>";
 		};
-		F61C73857633D6AA9B79FBCF7D2BEA69 /* Support Files */ = {
+		F80DBAF9268E531DF888E5692927885E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				01C2EBA296D8AE5B6AFFA5E1117D1BCA /* MarqueeLabel.xcconfig */,
-				62664B53B61D74CFFB42F3C3119B347B /* MarqueeLabel-dummy.m */,
-				1634420F41230F64FC94594FE4AF1549 /* MarqueeLabel-prefix.pch */,
+				53EB4AC1AF95CCA4485F81B2BBE294D7 /* FeedMedia.xcconfig */,
+				AFF7A5D9206D36078DCB5CEA43E0B83A /* FeedMedia-dummy.m */,
+				8188639E8441BE711536EC7A8E1A9F46 /* FeedMedia-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/MarqueeLabel";
+			path = "../Target Support Files/FeedMedia";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -493,35 +444,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B37349253115F8D0AB24AE7516B4FFF1 /* Headers */ = {
+		D529A1F2D8FEC6CC2D16D19871CE248B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				263C4F53C65CA37F0BF2C842C77230C9 /* CWStatusBarNotification.h in Headers */,
-				E6ACD9076336C439CD764248A1676501 /* FeedMedia.h in Headers */,
-				BC1FB452E60ED6A75F9033A6BC05BD53 /* FeedMediaCore.h in Headers */,
-				DC7A3C8B836BB93C882F52CD26ECF922 /* FeedMediaCoreProxy.h in Headers */,
-				2092CA91183DACA4E860C24BA9A4D586 /* FMActivityIndicator.h in Headers */,
-				8E3F501A52DF74468E86605A93C22261 /* FMAudioItem.h in Headers */,
-				75746610729F8A9A5BB565A0C5B74173 /* FMAudioPlayer.h in Headers */,
-				C74AD9C47108450DF2962316F962BE6B /* FMDislikeButton.h in Headers */,
-				40EA759DEC063BB22B3F8A4FCAB90DE5 /* FMElapsedTimeLabel.h in Headers */,
-				5A76BBC543816F2187B58813FBB8076D /* FMEqualizer.h in Headers */,
-				7AF31FA943C90B8D52D2078E20115995 /* FMError.h in Headers */,
-				75F158C44A5629A73C28251601BF0158 /* FMLikeButton.h in Headers */,
-				29869008A9A3C0B898430F387BEEE814 /* FMLockScreenDelegate.h in Headers */,
-				8F143A9C9D5AB14F40FDC226B655DE71 /* FMLog.h in Headers */,
-				4C95D778722A1D746DB97A9F2BB82974 /* FMMetadataLabel.h in Headers */,
-				9E5069E88F43EC8532713C5B450DB717 /* FMPlayPauseButton.h in Headers */,
-				48EAE59B8484D97A90CA8F72C38D957B /* FMProgressView.h in Headers */,
-				85D9F8BE48F8F83AE8D64A39A76D1F37 /* FMRemainingTimeLabel.h in Headers */,
-				350200E037A7E93515B3A4D2BC547C2E /* FMShareButton.h in Headers */,
-				E7CAE52F7545D433CC29FBB6125C016F /* FMSkipButton.h in Headers */,
-				D000B6EFF0589436C04BDB3BE6A6D6EE /* FMSkipWarningView.h in Headers */,
-				8D4583F9B4887C91DF6F6E8C8512A8CE /* FMStation.h in Headers */,
-				41049ABCA737A710B0855B486F9F694F /* FMStationButton.h in Headers */,
-				E638AC37DF04C9D19D647AD3DBE5D19C /* FMStationCrossfader.h in Headers */,
-				8A397AAB77EBA1FEBE8898D02DD1EEF7 /* FMTotalTimeLabel.h in Headers */,
+				288DDAEFEF45CBF48BF9E30E58CE4D94 /* CWStatusBarNotification.h in Headers */,
+				B27A45BECF6A63703E3990AA0D441F5B /* FeedMedia.h in Headers */,
+				D56EF99E6CD444E5C52DF50036CAA2E7 /* FeedMediaCore.h in Headers */,
+				1A7CCBD118A02FD3B0E8EF0BB46EDA32 /* FeedMediaCoreProxy.h in Headers */,
+				FAB9B7B4EEA604F29BAD0F8F55BBE205 /* FMActivityIndicator.h in Headers */,
+				AA290A167794EC7CF18E38D248710213 /* FMAudioItem.h in Headers */,
+				4311B9E02D69341028C74E48913A6C48 /* FMAudioPlayer.h in Headers */,
+				90D13E4C17FC993A99A100A900E33BD9 /* FMDislikeButton.h in Headers */,
+				9728D317C1B640107581D98AEF25A86C /* FMElapsedTimeLabel.h in Headers */,
+				F0543F400D223F4D38D230360E9ED468 /* FMEqualizer.h in Headers */,
+				36923054237DE9DFAC23A16239998FF6 /* FMError.h in Headers */,
+				23260CB56F270930294F5BB68E895C5A /* FMLikeButton.h in Headers */,
+				9D06BFF27E7643E758B457C2C8DCCBF7 /* FMLockScreenDelegate.h in Headers */,
+				81EBB2A06A229F2CD0846EAC66164A51 /* FMLog.h in Headers */,
+				C579507FB65F4F0AFA8A74B3588689CA /* FMMetadataLabel.h in Headers */,
+				DF191C82827892C32B043D35E07CCE8E /* FMPlayPauseButton.h in Headers */,
+				DA9EFA7D61A131053DA22458F621172B /* FMProgressView.h in Headers */,
+				94BEACE724A8862B9371C3E740D32762 /* FMRemainingTimeLabel.h in Headers */,
+				9716A4AA7AC82737421B1828C3B068C5 /* FMShareButton.h in Headers */,
+				A1CFD5F88C88C1E1B8FA990B317B9AB1 /* FMSkipButton.h in Headers */,
+				0522117822FE0264996863FFC257E826 /* FMSkipWarningView.h in Headers */,
+				3DCD6F63CF1E6AB6A8879F75CC118FD7 /* FMStation.h in Headers */,
+				1127730BC2001A9E640718A77AE03E1E /* FMStationButton.h in Headers */,
+				B17D270A873E880A5EA5178F220354D2 /* FMStationCrossfader.h in Headers */,
+				FA8701AA7229FC3B7B01FE960ED10345 /* FMTotalTimeLabel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,9 +483,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8A46F5B83EED5FD0819820F8FC6C94C /* Build configuration list for PBXNativeTarget "FeedMedia" */;
 			buildPhases = (
-				DA5DB75FFA8DDE8086B6FD58FC8063C9 /* Sources */,
+				7E1B4EF4AA403E6D0106933A05D07365 /* Sources */,
 				559B9C02028F97CDD8B6B08371D671BF /* Frameworks */,
-				B37349253115F8D0AB24AE7516B4FFF1 /* Headers */,
+				D529A1F2D8FEC6CC2D16D19871CE248B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -646,6 +597,29 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7E1B4EF4AA403E6D0106933A05D07365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8767D0C2F87EA3AC2CBDEFF06FDFB07 /* FeedMedia-dummy.m in Sources */,
+				B64C8E12AE9CE5757670DC1AE178212F /* FMActivityIndicator.m in Sources */,
+				AF50CFA1BC1E89B612F8EB988F802FD9 /* FMDislikeButton.m in Sources */,
+				AD31574D7FC3384EEBECDFEB949FCC2E /* FMElapsedTimeLabel.m in Sources */,
+				8E9C85A1CB21585FA498A438E0F8D904 /* FMEqualizer.m in Sources */,
+				813650B880A07DE8031287038A185D1F /* FMLikeButton.m in Sources */,
+				CE6AD7AA82E966DEFE321AA56DDCCC1B /* FMMetadataLabel.m in Sources */,
+				1C18CAC7DCC0007D25D0DDB4BEE32F93 /* FMPlayPauseButton.m in Sources */,
+				359BE169697030C14E6D93D84D3B5672 /* FMProgressView.m in Sources */,
+				D1D01774649E87531D2724541205F298 /* FMRemainingTimeLabel.m in Sources */,
+				0F6C15EEFE2374F6B176B85E21CA3E5A /* FMShareButton.m in Sources */,
+				8ACD5B3FF6CCCB746BFF2C6189613DC4 /* FMSkipButton.m in Sources */,
+				F760FD5566ED2C2A527A951C8BCD05DF /* FMSkipWarningView.m in Sources */,
+				C3EF991D0E7FBDA7F62495EBA809F699 /* FMStationButton.m in Sources */,
+				2BD7CFE859779014E5CDB823093FA60B /* FMStationCrossfader.m in Sources */,
+				AE6A7644682982AF2EB9E42C3AE973B8 /* FMTotalTimeLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B74C3121449D9C791AAEFFAAEFB5298E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -668,29 +642,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				08C2DD9CD784BF113F0EBA8CB62ACF73 /* Pods-SampleOfflineAppUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA5DB75FFA8DDE8086B6FD58FC8063C9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7A148D6E4C4652566FDACA3F35271A7D /* FeedMedia-dummy.m in Sources */,
-				19F9271E966C5E08F7DF79AE1C032068 /* FMActivityIndicator.m in Sources */,
-				8CD156F31D3539CDA9B8EC1F614C79F9 /* FMDislikeButton.m in Sources */,
-				F7CEAA85C0B5560158449BBAF2984124 /* FMElapsedTimeLabel.m in Sources */,
-				F24347E8C898FC7ACA7D0267C3E26EAD /* FMEqualizer.m in Sources */,
-				C122000B05DC0B9375578DF5BC97EC49 /* FMLikeButton.m in Sources */,
-				7CC4873043E9B25F35C977B6B6D1F99D /* FMMetadataLabel.m in Sources */,
-				D3C699DBB0B34CCBE6E3F33371AB8539 /* FMPlayPauseButton.m in Sources */,
-				B39BE59B2A2B67B0562E75ECECDCEF2E /* FMProgressView.m in Sources */,
-				333EF3652930EE36885F9323878EF548 /* FMRemainingTimeLabel.m in Sources */,
-				C843D6BA0A187F7A11E2D85B3E49726A /* FMShareButton.m in Sources */,
-				CCDB3CCC6B8AD163BDBC6DA70991792A /* FMSkipButton.m in Sources */,
-				2E8DCAA357DE31C3EC0CDF12C54ED4F7 /* FMSkipWarningView.m in Sources */,
-				CF288857166EF825FC2F5EE1E1188E2A /* FMStationButton.m in Sources */,
-				7C30346B3CA4DF7BE83D65E500C63210 /* FMStationCrossfader.m in Sources */,
-				2754D66C769012C313E97101DD645BB4 /* FMTotalTimeLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -785,7 +736,7 @@
 		};
 		095AAF2613D910F0C983A2930EE55526 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01C2EBA296D8AE5B6AFFA5E1117D1BCA /* MarqueeLabel.xcconfig */;
+			baseConfigurationReference = 4DE1A40EB3E6EE7BCFDC8A182E78B315 /* MarqueeLabel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -808,7 +759,7 @@
 		};
 		0F17642945A325958B99372576B71383 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 672A4E325649F51FC9E4D830A3B8D957 /* FeedMedia.xcconfig */;
+			baseConfigurationReference = 53EB4AC1AF95CCA4485F81B2BBE294D7 /* FeedMedia.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -998,7 +949,7 @@
 		};
 		9D0A2E9A96F9C5BC3657D1BC1D13F827 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01C2EBA296D8AE5B6AFFA5E1117D1BCA /* MarqueeLabel.xcconfig */;
+			baseConfigurationReference = 4DE1A40EB3E6EE7BCFDC8A182E78B315 /* MarqueeLabel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1067,7 +1018,7 @@
 		};
 		DCCD1B7C3124F173BB0A95789120ABB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 672A4E325649F51FC9E4D830A3B8D957 /* FeedMedia.xcconfig */;
+			baseConfigurationReference = 53EB4AC1AF95CCA4485F81B2BBE294D7 /* FeedMedia.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

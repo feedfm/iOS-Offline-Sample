@@ -7,7 +7,7 @@ target 'SampleOfflineApp' do
 
   # Pods for SampleOfflineApp
 
-pod 'FeedMedia', :path => '~/iOS-SDK-Core/FeedMedia'
+pod 'FeedMedia', '~>4.1.4-alpha'
 
   target 'SampleOfflineAppTests' do
     inherit! :search_paths

@@ -1,1 +1,1 @@
-../../../../../../iOS-SDK-Core/FeedMedia/Sources/FMProgressView.h
+../../../FeedMedia/Sources/FMProgressView.h

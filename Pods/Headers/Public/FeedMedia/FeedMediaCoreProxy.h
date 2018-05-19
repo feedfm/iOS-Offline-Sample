@@ -1,1 +1,1 @@
-../../../../../../iOS-SDK-Core/FeedMedia/Sources/FeedMediaCoreProxy.h
+../../../FeedMedia/Sources/FeedMediaCoreProxy.h

@@ -1,1 +1,1 @@
-../../../../../../iOS-SDK-Core/FeedMedia/Sources/FMSkipWarningView.h
+../../../FeedMedia/Sources/FMSkipWarningView.h
